@@ -174,36 +174,36 @@ Make a **bar chart** showing the price of each lollies.
 
 ---
 
-## 🌟 Bonus Challenge: Design Your Dream Spreadsheet
+## Bonus Challenge: Design Your Dream Spreadsheet
 
 Now create something **totally your own!** Some ideas:
 
-- 📚 **Book tracker** — books you've read, want to read, author, rating
-- 🎵 **Music tracker** — favorite songs, artists, number of times listened
-- 🌤️ **Weather log** — record the temperature each day for a month
-- 🎂 **Birthday planner** — friends' birthdays, gift ideas, budget
-- 🏅 **Achievement tracker** — track your personal goals and progress
+- **Book tracker** — books you've read, want to read, author, rating
+- **Music tracker** — favorite songs, artists, number of times listened
+- **Weather log** — record the temperature each day for a month
+- **Birthday planner** — friends' birthdays, gift ideas, budget
+- **Achievement tracker** — track your personal goals and progress
 
 Use everything you've learned:
-- ✅ Proper headers with bold formatting
-- ✅ At least one SUM, AVERAGE, MAX, or MIN formula
-- ✅ At least one chart
-- ✅ Colors and formatting that make it easy to read
+- Proper headers with bold formatting
+- At least one SUM, AVERAGE, MAX, or MIN formula
+- At least one chart
+- Colors and formatting that make it easy to read
 
 ---
 
-## ✅ Lesson 5 Recap
+## Lesson 5 Recap
 
 You applied:
-- ✔️ Data entry and organization
-- ✔️ Text and number formatting
-- ✔️ SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF formulas
-- ✔️ Creating and customizing charts
-- ✔️ Building real-world useful spreadsheets
+- Data entry and organization
+- Text and number formatting
+- SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF formulas
+- Creating and customizing charts
+- Building real-world useful spreadsheets
 
 ---
 
-## 🎓 Congratulations — You're an Excel Beginner! 🎉
+## Congratulations — You're an Excel Beginner!
 
 You've completed all 5 lessons! Here's everything you can now do:
 
@@ -219,12 +219,12 @@ You've completed all 5 lessons! Here's everything you can now do:
 ### What's Next?
 
 When you're ready to level up, explore:
-- 🔍 **Sorting and Filtering** — organize data alphabetically or numerically
-- 🔒 **IF Statements** — make cells show different things based on conditions
-- 🔗 **VLOOKUP** — search for data across sheets
-- 🎨 **Conditional Formatting** — automatically color cells based on their values
+- **Sorting and Filtering** — organize data alphabetically or numerically
+- **IF Statements** — make cells show different things based on conditions
+- **VLOOKUP** — search for data across sheets
+- **Conditional Formatting** — automatically color cells based on their values
 
 ---
 
-⬅️ **Previous Lesson:** [Lesson 4 — Charts & Graphs](lesson4-charts-graphs.md)  
-🏠 **Back to Start:** [README](../README.md)
+**Previous Lesson:** [Lesson 4 — Charts & Graphs](lesson4-charts-graphs.md)  
+**Back to Start:** [README](../README.md)
