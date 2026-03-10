@@ -53,8 +53,6 @@ Below your data, add these calculations:
 1. Select the **Game Title** and **Hours Played** columns.
 2. Create a **Bar Chart** titled **"Time Spent on Each Game"**.
 
----
-
 ## Project 2: Sports Season Tracker
 
 Track your favorite sports team's season!
