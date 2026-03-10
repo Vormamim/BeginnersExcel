@@ -1,6 +1,6 @@
-# 🎉 Welcome to Beginners Excel!
+Beginners Excel!
 
-> A fun, step-by-step Excel tutorial made just for **12-year-olds** (and anyone who wants to learn the basics!).
+> A fun, step-by-step Excel tutorial 
 
 ---
 
