@@ -3,13 +3,9 @@
 **Time:** 45–60 minutes  
 **What you'll learn:** Apply everything you've learned to create awesome real-world spreadsheets!
 
----
-
 ## Introduction
 
 You've learned the basics of Excel — now let's put them all together in fun, creative projects. Choose any project (or do them all!)
-
----
 
 ## Project 1: Ultimate Video Game Tracker
 
