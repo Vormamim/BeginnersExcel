@@ -1,0 +1,2 @@
+git remote add beginners https://github.com/Vormamim/BeginnersExcel.git
+git push beginners main
