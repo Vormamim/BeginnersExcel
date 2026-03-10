@@ -1,7 +1,7 @@
-# Lesson 5: Fun Projects 🎮🏆🎬
+# Lesson 5: Projects
 
-**⏱️ Time:** 45–60 minutes  
-**📚 What you'll learn:** Apply everything you've learned to create awesome real-world spreadsheets!
+**Time:** 45–60 minutes  
+**What you'll learn:** Apply everything you've learned to create awesome real-world spreadsheets!
 
 ---
 
@@ -11,7 +11,7 @@ You've learned the basics of Excel — now let's put them all together in fun, c
 
 ---
 
-## 🎮 Project 1: Ultimate Video Game Tracker
+## Project 1: Ultimate Video Game Tracker
 
 Create a spreadsheet to track your favorite video games!
 
@@ -59,7 +59,7 @@ Below your data, add these calculations:
 
 ---
 
-## 🏆 Project 2: Sports Season Tracker
+## Project 2: Sports Season Tracker
 
 Track your favorite sports team's season!
 
@@ -96,7 +96,7 @@ A season tracker with wins/losses, goals, and standings.
 - `=COUNTIF(E2:E9,"Loss")` — Total Losses
 - `=COUNTIF(E2:E9,"Draw")` — Total Draws
 
-> 💡 **New Function Alert! COUNTIF**
+> **New Function Alert! COUNTIF**
 > `=COUNTIF(range, "criteria")` counts cells that match a specific word or value.
 > Example: `=COUNTIF(E2:E9,"Win")` counts all the "Win" results.
 
@@ -106,7 +106,7 @@ A season tracker with wins/losses, goals, and standings.
 
 ---
 
-## 🎬 Project 3: Movie Night Planner
+## Project 3: Movie Night Planner
 
 Create a spreadsheet to rate movies and find your favorites!
 
@@ -136,14 +136,14 @@ In a summary area, use:
 2. Make movies you'd watch again have a **green** background.
 3. Make movies you wouldn't watch again have a **red** background.
 
-> 💡 **How to manually color specific rows:**
+> **How to manually color specific rows:**
 > 1. Click on the row with a "Yes" in the Watch Again column.
 > 2. In the **Home** tab, click **Fill Color** and choose green.
 > 3. Repeat for "No" rows in red.
 
 ---
 
-## 🍬 Project 4: Lollies Shop Simulator
+## Project 4: Lollies Shop Simulator
 
 Use the lollies data to run a pretend candy shop!
 
