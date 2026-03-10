@@ -143,12 +143,12 @@ In a summary area, use:
 
 ---
 
-## 🍬 Project 4: Candy Shop Simulator
+## 🍬 Project 4: Lollies Shop Simulator
 
-Use the candy data to run a pretend candy shop!
+Use the lollies data to run a pretend candy shop!
 
 ### What You'll Build
-A candy shop inventory and sales tracker.
+A lollies shop inventory and sales tracker.
 
 ### Step-by-Step Instructions
 
@@ -166,11 +166,11 @@ After the existing columns, add:
 
 **Step 3: Calculate shop totals**
 - Total inventory value: `=SUM(Total Value column)`
-- Most expensive candy: `=MAX(Price column)`
+- Most expensive lollies: `=MAX(Price column)`
 - Average price: `=AVERAGE(Price column)`
 
 **Step 4: Create a chart**
-Make a **bar chart** showing the price of each candy.
+Make a **bar chart** showing the price of each lollies.
 
 ---
 
