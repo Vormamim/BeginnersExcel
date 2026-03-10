@@ -16,6 +16,13 @@ Beginners Excel!
 
 ---
 
+## 🧠 Planning & Research
+
+- [Planning](planning.md)
+- [Research](research.md)
+
+---
+
 ## 📂 Sample Data Files
 
 Practice with real data! Find them in the [`data/`](data/) folder:
