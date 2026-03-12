@@ -1,7 +1,7 @@
 # Lesson 2: Entering and Formatting Data ✏️
 
 **⏱️ Time:** About 25 minutes  
-**📚 What you'll learn:** How to type data into cells, edit it, and make it look great
+**What you'll learn:** How to type data into cells, edit it, and make it look great
 
 ---
 
@@ -20,7 +20,7 @@ Entering data in Excel is simple!
 | **Numbers** | `42`, `3.14` | Right-aligned by default |
 | **Dates** | `3/10/2025` | Excel recognizes most date formats |
 
-### 🎯 Try It!
+### Try It!
 Open a new spreadsheet and type this data starting at **A1**:
 
 | | A | B |
@@ -46,7 +46,7 @@ Open a new spreadsheet and type this data starting at **A1**:
 **To undo a mistake:**
 - Press **Ctrl + Z** (Windows) or **Cmd + Z** (Mac)
 
-### 🎯 Try It!
+### Try It!
 1. Click on cell **B3** (Luigi's score of 87).
 2. Double-click it and change it to **90**.
 3. Press **Enter**.
@@ -68,7 +68,7 @@ Sometimes you want to work with a group of cells at once.
 
 A selected range is written like **A1:B5** (from A1 to B5).
 
-### 🎯 Try It!
+### Try It!
 1. Click on **A1**.
 2. Hold **Shift** and click on **B5**.
 3. You've selected the range **A1:B5** — all your data!
@@ -79,7 +79,7 @@ A selected range is written like **A1:B5** (from A1 to B5).
 
 Formatting makes your spreadsheet easier to read and more fun! Find these buttons in the **Home** tab:
 
-### 🔠 Font Formatting
+### Font Formatting
 | Button | What It Does | Shortcut |
 |--------|-------------|----------|
 | **B** | **Bold** | Ctrl + B |
@@ -88,12 +88,12 @@ Formatting makes your spreadsheet easier to read and more fun! Find these button
 | Font Size | Make text bigger/smaller | — |
 | Font Color | Change text color | — |
 
-### 🎨 Cell Background Color
+### Cell Background Color
 1. Select the cells you want to color.
 2. Click the **Fill Color** button (the paint bucket 🪣 in the Home tab).
 3. Pick your favorite color!
 
-### 🎯 Try It!
+### Try It!
 1. Click cell **A1** ("Name") and hold Shift, click **B1** ("Score").
 2. Press **Ctrl + B** to make the headers **bold**.
 3. With A1:B1 still selected, click the **Fill Color** button and choose a light blue or yellow.
@@ -112,7 +112,7 @@ Sometimes your text is too wide to fit in a cell — you'll see `######` instead
 **To fix row height:**
 - Double-click the border between two row numbers.
 
-### 🎯 Try It!
+### Try It!
 1. Move your mouse to the line between column **A** and column **B** at the very top (between the letters).
 2. When the cursor becomes a double arrow (↔), **double-click**.
 3. Column A will auto-fit to the widest content!
@@ -129,7 +129,7 @@ You can align text left, center, or right in a cell.
    - ⬛ Center
    - ➡️ Right Align
 
-### 🎯 Try It!
+### Try It!
 1. Select **A1:B1** (your headers).
 2. Click the **Center** button.
 3. Your headers are now centered!
