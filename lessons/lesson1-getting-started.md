@@ -69,7 +69,7 @@ Every cell has an **address** made of a **column letter** + **row number**.
 - The cell in column **C**, row **5** → **C5**
 - The cell in column **B**, row **3** → **B3**
 
-### 🎯 Try It!
+### Try It!
 1. Click on a cell in the spreadsheet.
 2. Look at the **Name Box** (top-left corner). It shows the cell address!
 3. Click on the cell in column **D**, row **7**. What does the Name Box say? (**D7**)
@@ -89,7 +89,7 @@ You can move around in several ways:
 | Go to cell A1 | Press **Ctrl + Home** |
 | Go to the last used cell | Press **Ctrl + End** |
 
-### 🎯 Try It!
+### Try It!
 1. Press **Ctrl + Home** to go to cell **A1**.
 2. Press the **right arrow** 5 times. Where are you? (**F1**)
 3. Press the **down arrow** 3 times. Where are you? (**F4**)
@@ -110,7 +110,7 @@ The **Ribbon** at the top has tabs full of tools. The main ones are:
 | **Data** | Sorting and filtering |
 | **View** | How the spreadsheet looks on screen |
 
-### 🎯 Try It!
+### Try It!
 1. Click the **Insert** tab. Look at what's there!
 2. Click the **Home** tab to go back.
 
@@ -123,7 +123,7 @@ The **Ribbon** at the top has tabs full of tools. The main ones are:
 - **Ctrl + S** (Windows) or **Cmd + S** (Mac) — Save quickly
 - Click **File** → **Save As** — Save with a new name
 
-### 🎯 Try It!
+### Try It!
 1. Press **Ctrl + S**.
 2. Give your file the name **"Excel Practice"**.
 3. Choose where to save it (like your Desktop or Documents).
@@ -131,7 +131,7 @@ The **Ribbon** at the top has tabs full of tools. The main ones are:
 
 ---
 
-## ✅ Lesson 1 Recap
+## Lesson 1 Recap
 
 You learned:
 - ✔️ How to open Excel and start a blank workbook
@@ -142,7 +142,7 @@ You learned:
 
 ---
 
-## 🎮 Activity: Find the Treasure!
+## Activity: Find the Treasure!
 
 In your blank spreadsheet, navigate to these cells and write what you find (they'll all be empty, but the practice matters!):
 
