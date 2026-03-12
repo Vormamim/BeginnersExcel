@@ -1,7 +1,7 @@
 # Lesson 4: Charts and Graphs 📊
 
 **⏱️ Time:** About 25 minutes  
-**📚 What you'll learn:** How to turn your data into colorful, eye-catching charts!
+**What you'll learn:** How to turn your data into colorful, eye-catching charts!
 
 ---
 
@@ -9,9 +9,9 @@
 
 Numbers in a table are useful, but a **chart** makes data easier to understand at a glance. Charts help you:
 
-- 🏆 Compare things (who scored the most?)
-- 📈 See trends (are sales going up or down?)
-- 🥧 Show proportions (what percentage of votes did each candy get?)
+- Compare things (who scored the most?)
+- See trends (are sales going up or down?)
+- Show proportions (what percentage of votes did each candy get?)
 
 ---
 
@@ -51,7 +51,7 @@ Type this into a new spreadsheet:
 2. Click the **Insert** tab in the Ribbon.
 3. In the **Charts** group, click the **Bar Chart** icon (it looks like sideways bars).
 4. Choose **"Clustered Bar"** (the first option).
-5. A chart appears! 🎉
+5. A chart appears!
 
 ---
 
@@ -63,7 +63,7 @@ Your chart might be in the way. Let's move it!
 
 **To resize:** Click the chart, then drag the **corner handles** (small dots at the corners) to make it bigger or smaller.
 
-### 🎯 Try It!
+### Try It!
 Move your chart below your data table.
 
 ---
@@ -167,7 +167,7 @@ Line charts show how things change over time.
 
 ---
 
-## ✅ Lesson 4 Recap
+## Lesson 4 Recap
 
 You learned:
 - ✔️ When to use different chart types
@@ -178,7 +178,7 @@ You learned:
 
 ---
 
-## 🎮 Activity: Chart Your Video Game Data
+## Activity: Chart Your Video Game Data
 
 1. Open [`../data/video_games.csv`](../data/video_games.csv) in Excel.
 2. Create **two charts**:
