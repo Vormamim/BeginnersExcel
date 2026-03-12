@@ -3,8 +3,6 @@
 
 Use this workbook to plan and organise your investigation.
 
----
-
 # My Research Question
 
 How is digital technology used in my household, and what impact does it have?
@@ -13,7 +11,6 @@ My focus question:
 
 ____________________________________
 
----
 
 # Participants
 
@@ -27,7 +24,6 @@ Relationship to me:
 
 ____________________________________
 
----
 
 # Permission
 
@@ -37,7 +33,6 @@ ____________________________________
 
 ____________________________________
 
----
 
 # My Data Types
 
@@ -67,7 +62,6 @@ ____________________________________
 
 ____________________________________
 
----
 
 # Data Collection Plan
 
@@ -83,8 +77,6 @@ How I will record my data:
 □ Spreadsheet  
 □ Notebook  
 
----
-
 # Data Log
 
 | Day | Person | Screen Time | Device | Purpose | Time Used Most | Helpful When | Distracting When |
@@ -99,8 +91,6 @@ How I will record my data:
 | Day 4 | | | | | | | |
 | Day 5 | | | | | | | |
 | Day 5 | | | | | | | |
-
----
 
 # Organising My Results
 
@@ -120,8 +110,6 @@ ____________________________________
 
 ____________________________________
 
----
-
 # Graph Planning
 
 Graph 1 Title:
@@ -138,8 +126,6 @@ Type of graph:
 □ Pie chart  
 □ Column graph  
 
----
-
 Graph 2 Title:
 
 ____________________________________
@@ -153,8 +139,6 @@ Type of graph:
 □ Bar graph  
 □ Pie chart  
 □ Column graph  
-
----
 
 # Patterns I Noticed
 
@@ -176,8 +160,6 @@ ____________________________________
 
 ____________________________________
 
----
-
 # Ethics Statement Draft
 
 Write a short statement explaining how you protected privacy.
@@ -188,7 +170,6 @@ ____________________________________
 
 ____________________________________
 
----
 
 # Conclusion
 
