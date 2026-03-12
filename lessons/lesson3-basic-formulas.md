@@ -1,7 +1,7 @@
-# Lesson 3: Basic Formulas 🧮
+# Lesson 3: Basic Formulas 
 
 **⏱️ Time:** About 30 minutes  
-**📚 What you'll learn:** How to use Excel formulas to add, average, and analyze numbers — no calculator needed!
+**What you'll learn:** How to use Excel formulas to add, average, and analyze numbers — no calculator needed!
 
 ---
 
@@ -25,7 +25,7 @@ Excel can do all kinds of math:
 | `/` | Division | `=20/4` | 5 |
 | `^` | Power (exponent) | `=2^3` | 8 |
 
-### 🎯 Try It!
+### Try It!
 1. Click on an empty cell (like **D1**).
 2. Type `=5+3` and press **Enter**. You should see **8**.
 3. Try `=100/4` in **D2**. What do you get? (**25**)
@@ -43,7 +43,7 @@ Instead of typing numbers directly, you can **reference cells**. This is super p
 
 When the numbers in A1 or B1 change, the formula **automatically updates**! 🔄
 
-### 🎯 Try It!
+### Try It!
 1. Type **10** in cell **A1** and **5** in cell **B1**.
 2. In cell **C1**, type `=A1+B1` and press Enter. It shows **15**.
 3. Now change **A1** to **20**. Watch **C1** update to **25** automatically!
@@ -58,7 +58,7 @@ Adding up a long list of numbers one by one is boring. Use **SUM** instead!
 
 **Example:** `=SUM(B2:B6)` adds all numbers from B2 to B6.
 
-### 🎯 Try It!
+### Try It!
 
 Set up this table of game scores:
 
@@ -84,7 +84,7 @@ Set up this table of game scores:
 
 **Syntax:** `=AVERAGE(first cell:last cell)`
 
-### 🎯 Try It!
+### Try It!
 1. Click on an empty cell below your total (like **B8**).
 2. Type **Average:** in **A8**.
 3. In **B8**, type `=AVERAGE(B2:B6)` and press **Enter**.
@@ -103,7 +103,7 @@ Set up this table of game scores:
 =MIN(B2:B6)
 ```
 
-### 🎯 Try It!
+### Try It!
 1. In **A9**, type **Highest Score:** and in **B9** type `=MAX(B2:B6)`.
 2. In **A10**, type **Lowest Score:** and in **B10** type `=MIN(B2:B6)`.
 3. You can now see who scored the highest and lowest!
@@ -131,7 +131,7 @@ Your table should now look like this:
 
 **Syntax:** `=COUNT(B2:B6)`
 
-### 🎯 Try It!
+### Try It!
 1. In **A11**, type **Number of Players:**
 2. In **B11**, type `=COUNT(B2:B6)` — it should show **5**.
 
@@ -172,7 +172,7 @@ Excel automatically adjusts the cell references — **C2** becomes `=B2*2`, **C3
 
 ---
 
-## ✅ Lesson 3 Recap
+## Lesson 3 Recap
 
 You learned:
 - ✔️ Formulas always start with `=`
@@ -186,7 +186,7 @@ You learned:
 
 ---
 
-## 🎮 Activity: Sports Stats Tracker
+## Activity: Sports Stats Tracker
 
 1. Open [`../data/sports_scores.csv`](../data/sports_scores.csv) in Excel.
 2. Add these calculations at the bottom of the **Goals Scored** column:
