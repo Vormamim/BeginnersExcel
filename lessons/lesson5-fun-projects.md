@@ -212,13 +212,14 @@ You've completed all 5 lessons! Here's everything you can now do:
 
 ### What's Next?
 
-When you're ready to level up, explore:
-- **Sorting and Filtering** — organize data alphabetically or numerically
-- **IF Statements** — make cells show different things based on conditions
-- **VLOOKUP** — search for data across sheets
-- **Conditional Formatting** — automatically color cells based on their values
+When you're ready to level up, continue to these lessons:
+- [Lesson 6 — Sorting and Filtering](lesson6-sorting-filtering.md)
+- [Lesson 7 — IF Statements](lesson7-if-statements.md)
+- [Lesson 8 — VLOOKUP](lesson8-vlookup.md)
+- [Lesson 9 — Conditional Formatting](lesson9-conditional-formatting.md)
 
 ---
 
-**Previous Lesson:** [Lesson 4 — Charts & Graphs](lesson4-charts-graphs.md)  
-**Back to Start:** [README](../README.md)
+➡️ **Next Lesson:** [Lesson 6 — Sorting and Filtering](lesson6-sorting-filtering.md)  
+⬅️ **Previous Lesson:** [Lesson 4 — Charts & Graphs](lesson4-charts-graphs.md)  
+🏠 **Back to Start:** [README](../README.md)
