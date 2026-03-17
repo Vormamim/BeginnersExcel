@@ -13,6 +13,10 @@ Beginners Excel!
 | 3 | [Basic Formulas](lessons/lesson3-basic-formulas.md) | SUM, AVERAGE, MAX, MIN and more |
 | 4 | [Charts & Graphs](lessons/lesson4-charts-graphs.md) | Turning data into cool visuals |
 | 5 | [Fun Projects](lessons/lesson5-fun-projects.md) | Games, movies, sports trackers |
+| 6 | [Sorting & Filtering](lessons/lesson6-sorting-filtering.md) | Organize data alphabetically or numerically |
+| 7 | [IF Statements](lessons/lesson7-if-statements.md) | Make cells show different things based on conditions |
+| 8 | [VLOOKUP](lessons/lesson8-vlookup.md) | Search for data across sheets |
+| 9 | [Conditional Formatting](lessons/lesson9-conditional-formatting.md) | Automatically color cells based on their values |
 
 ---
 
