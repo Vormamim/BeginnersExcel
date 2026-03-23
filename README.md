@@ -20,6 +20,14 @@ Beginners Excel!
 
 ---
 
+## ✅ Skills Checklist
+
+Track your progress and check off every skill you've mastered across all 9 lessons:
+
+- [Student Skills Checklist](checklist.md)
+
+---
+
 ## 🧠 Planning & Research
 
 - [Planning](planning.md)
