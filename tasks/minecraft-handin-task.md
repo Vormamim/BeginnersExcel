@@ -1,8 +1,7 @@
 # 🧱 Minecraft Excel Hand-In Task
 
 **Subject:** Digital Technology — Spreadsheets  
-**Time:** Up to 1 hour  
-**Level:** Beginner (Year 7 / Age 12)
+**Time:** Up to 1-2 hours  
 
 ---
 
@@ -166,6 +165,20 @@ This looks up whatever item name is in **K8** and returns its **Rarity Score** f
 *(Skills from Lesson 4)*
 
 Let's make a bar chart showing the **Rarity Score** of just the weapons and tools.
+
+### Making a bar chart in Excel with non-adjacent columns (like Item and Rarity Score) is straightforward once you know the "Ctrl" trick.
+
+**Here is the step-by-step to create your chart:**
+Select the Items: Highlight the cells in the Item column (including the "Item" header).
+Select the Rarity Scores: Hold down the Ctrl key (or Command on Mac) and highlight the cells in the Rarity Score column (including the "Rarity Score" header). You should now have two separate columns highlighted at once.
+
+Insert the Chart: Click the Insert tab on the top ribbon.
+Choose the Bar Chart: Click the Insert Column or Bar Chart icon (it looks like three vertical bars) and select Clustered Bar (the horizontal ones) or Clustered Column (the vertical ones).
+
+**Clean it Up:**
+Title: Double-click the chart title to rename it "Item Rarity Scores."
+Sort (Optional): If you want the highest rarity at the top, go back to your data table, highlight it, and use Data > Sort to sort by "Rarity Score" (Largest to Smallest). The chart will update automatically.
+
 
 1. Hold **Ctrl** and select:  
    - **A1:A11** (Item names for the first 11 items — Weapons and Tools)  
