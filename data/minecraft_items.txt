@@ -1,0 +1,2 @@
+# Minecraft Items Data
+This CSV file contains information about various Minecraft items, including their types, durability, and rarity scores.
