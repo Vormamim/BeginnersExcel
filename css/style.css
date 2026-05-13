@@ -1,0 +1,213 @@
+/* Main Theme Colors */
+:root {
+    --primary-color: #2185D0;
+    --accent-color: #00B4A6;
+    --background: #f5f5f5;
+    --text-dark: #333;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-dark);
+}
+
+/* Navigation Styles */
+.ui.fixed.top.menu {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ui.fixed.top.menu .header.item {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white !important;
+}
+
+.ui.fixed.top.menu a.item {
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: all 0.3s ease;
+}
+
+.ui.fixed.top.menu a.item:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hero Section */
+.ui.inverted.vertical.segment {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%) !important;
+    color: white;
+}
+
+.ui.inverted.vertical.segment h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.8s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Container Spacing */
+.ui.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Segment Cards */
+.ui.segment {
+    background-color: white;
+    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ui.segment:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Grid Lesson Cards */
+.ui.three.column.grid .column {
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ui.three.column.grid .column:nth-child(1) { animation-delay: 0.1s; }
+.ui.three.column.grid .column:nth-child(2) { animation-delay: 0.2s; }
+.ui.three.column.grid .column:nth-child(3) { animation-delay: 0.3s; }
+.ui.three.column.grid .column:nth-child(4) { animation-delay: 0.4s; }
+.ui.three.column.grid .column:nth-child(5) { animation-delay: 0.5s; }
+.ui.three.column.grid .column:nth-child(6) { animation-delay: 0.6s; }
+.ui.three.column.grid .column:nth-child(7) { animation-delay: 0.7s; }
+.ui.three.column.grid .column:nth-child(8) { animation-delay: 0.8s; }
+.ui.three.column.grid .column:nth-child(9) { animation-delay: 0.9s; }
+
+/* Buttons */
+.ui.button {
+    transition: all 0.3s ease;
+}
+
+.ui.primary.button,
+.ui.primary.button:hover {
+    background-color: var(--primary-color) !important;
+    border: none;
+}
+
+.ui.primary.button:hover {
+    background-color: #1B6BA1 !important;
+    box-shadow: 0 4px 8px rgba(33, 133, 208, 0.3);
+}
+
+.ui.button {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+    border: none;
+}
+
+.ui.button:hover {
+    background-color: #009B94 !important;
+}
+
+/* Table Styles */
+.ui.celled.table {
+    border-top: 3px solid var(--primary-color);
+}
+
+.ui.celled.table thead tr {
+    background-color: #f0f0f0;
+    color: var(--primary-color);
+}
+
+.ui.celled.table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Headers */
+.ui.header {
+    color: var(--primary-color) !important;
+    font-weight: bold;
+}
+
+.ui.header .sub.header {
+    color: var(--accent-color) !important;
+}
+
+/* Lists */
+.ui.relaxed.list .item {
+    padding: 0.8rem 0;
+}
+
+.ui.relaxed.list .item i {
+    color: var(--accent-color);
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .ui.three.column.grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ui.three.column.grid .column {
+        width: 100% !important;
+    }
+    
+    .ui.inverted.vertical.segment h1 {
+        font-size: 2em !important;
+    }
+    
+    .ui.fixed.top.menu {
+        font-size: 0.9em;
+    }
+    
+    .ui.fixed.top.menu .right.menu {
+        display: none;
+    }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color);
+}
