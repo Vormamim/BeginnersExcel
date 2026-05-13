@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: Basic Formulas - Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="ui fixed top menu">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">All Lessons</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="ui container" style="margin-top: 80px; margin-bottom: 50px;">
+        <h1>🧮 Lesson 3: Basic Formulas</h1>
+        
+        <div class="ui segment">
+            <p><strong>⏱️ Time:</strong> About 30 minutes</p>
+            <p><strong>What you'll learn:</strong> How to use Excel formulas to add, average, and analyze numbers — no calculator needed!</p>
+        </div>
+
+        <!-- What is a Formula -->
+        <div class="ui segment">
+            <h2>What is a Formula?</h2>
+            <p>A <strong>formula</strong> is a math instruction you give to Excel. It always starts with an <strong>equals sign (=)</strong>.</p>
+            <p>When you type <code>=2+2</code> in a cell and press <strong>Enter</strong>, Excel shows <strong>4</strong>. Magic! 🪄</p>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="ui segment">
+            <h2>Step 1 — Basic Math Operators</h2>
+            <p>Excel can do all kinds of math:</p>
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Operation</th>
+                        <th>Example</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>+</code></td>
+                        <td>Addition</td>
+                        <td><code>=5+3</code></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td><code>-</code></td>
+                        <td>Subtraction</td>
+                        <td><code>=10-4</code></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><code>*</code></td>
+                        <td>Multiplication</td>
+                        <td><code>=6*7</code></td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td><code>/</code></td>
+                        <td>Division</td>
+                        <td><code>=20/4</code></td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><code>^</code></td>
+                        <td>Power (exponent)</td>
+                        <td><code>=2^3</code></td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="ui segment">
+            <h2>Step 3 — The SUM Function</h2>
+            <p>Adding up a long list of numbers one by one is boring. Use <strong>SUM</strong> instead!</p>
+            <p><strong>Syntax:</strong> <code>=SUM(first cell:last cell)</code></p>
+            <p><strong>Example:</strong> <code>=SUM(B2:B6)</code> adds all numbers from B2 to B6.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="ui segment">
+            <h2>Step 4 — The AVERAGE Function</h2>
+            <p><strong>AVERAGE</strong> calculates the mean (the typical middle value) of a range.</p>
+            <p><strong>Syntax:</strong> <code>=AVERAGE(first cell:last cell)</code></p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="ui segment">
+            <h2>Step 5 — MAX and MIN Functions</h2>
+            <ul>
+                <li><strong>MAX</strong> — finds the <strong>biggest</strong> number in a range</li>
+                <li><strong>MIN</strong> — finds the <strong>smallest</strong> number in a range</li>
+            </ul>
+            <p><strong>Syntax:</strong></p>
+            <pre><code>=MAX(B2:B6)
+=MIN(B2:B6)</code></pre>
+        </div>
+
+        <!-- Recap -->
+        <div class="ui segment" style="background-color: #f0f0f0;">
+            <h2>📋 Lesson 3 Recap</h2>
+            <p>You learned:</p>
+            <ul>
+                <li>✔️ Formulas always start with <code>=</code></li>
+                <li>✔️ Basic math: +, -, *, /, ^</li>
+                <li>✔️ Cell references update automatically</li>
+                <li>✔️ <code>=SUM()</code> — adds a range of numbers</li>
+                <li>✔️ <code>=AVERAGE()</code> — finds the mean</li>
+                <li>✔️ <code>=MAX()</code> and <code>=MIN()</code> — find the biggest and smallest</li>
+                <li>✔️ <code>=COUNT()</code> — counts number cells</li>
+                <li>✔️ How to copy formulas with the fill handle</li>
+            </ul>
+        </div>
+
+        <!-- Navigation -->
+        <div class="ui segment">
+            <a href="lesson2-entering-data.html" class="ui button">⬅️ Previous Lesson</a>
+            <a href="lesson4-charts-graphs.html" class="ui primary button">Next Lesson: Charts & Graphs ➡️</a>
+            <a href="../index.html" class="ui button">🏠 Back to Home</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
