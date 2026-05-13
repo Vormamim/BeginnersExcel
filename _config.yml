@@ -1,0 +1,12 @@
+title: Beginners Excel
+description: A fun, step-by-step Excel tutorial for beginners
+url: "https://vormamim.github.io/BeginnersExcel"
+github_username: Vormamim
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .gitignore
+  - LICENSE
