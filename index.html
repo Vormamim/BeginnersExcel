@@ -4,110 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beginners Excel - Learn Spreadsheets the Fun Way</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="top-bar app-navbar">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">📊 Beginners Excel</li>
-                <li><a href="#lessons">Lessons</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#data">Sample Data</a></li>
-            </ul>
-        </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li><a href="https://github.com/Vormamim/BeginnersExcel" target="_blank" class="button hollow light">GitHub</a></li>
-            </ul>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <div class="header item">📊 Beginners Excel</div>
+            <a href="#lessons" class="item">Lessons</a>
+            <a href="#features" class="item">Features</a>
+            <a href="#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
         </div>
     </div>
 
-    <header class="hero-section text-center">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x align-center">
-                <div class="cell medium-10 large-8">
-                    <h1>🎮 Learn Spreadsheets the Fun Way!</h1>
-                    <p class="lead">A step-by-step tutorial for beginners to learn spreadsheet basics through games, movies, and sports</p>
-                    <a href="#lessons" class="button primary large">Start Learning</a>
-                </div>
-            </div>
+    <div class="ui inverted vertical center aligned segment hero-section">
+        <div class="ui text container">
+            <h1 class="ui inverted header">🎮 Learn Spreadsheets the Fun Way!</h1>
+            <p class="hero-copy">A step-by-step tutorial for beginners to learn spreadsheet basics through games, movies, and sports</p>
+            <a href="#lessons" class="ui primary large button">Start Learning</a>
         </div>
-    </header>
+    </div>
 
-    <main class="grid-container page-content">
-        <section id="features" class="content-panel callout">
-            <h2 class="section-title">💡 What is Excel?</h2>
+    <main class="ui main text container page-content">
+        <section id="features" class="ui raised segment content-panel">
+            <h2 class="ui header section-title">💡 What is Excel?</h2>
             <p>Excel is a <strong>spreadsheet program</strong> made by Microsoft. People use it every day to:</p>
-            <ul class="no-bullet feature-list">
-                <li>📊 Track scores and grades</li>
-                <li>💰 Manage money and budgets</li>
-                <li>📈 Create charts and graphs</li>
-                <li>📋 Organize lists and data</li>
-            </ul>
-            <p class="mb-0">Whether you want to track your gaming scores, plan a party, or organize your sports team stats — spreadsheets can do it all!</p>
+            <div class="ui relaxed list feature-list">
+                <div class="item">📊 Track scores and grades</div>
+                <div class="item">💰 Manage money and budgets</div>
+                <div class="item">📈 Create charts and graphs</div>
+                <div class="item">📋 Organize lists and data</div>
+            </div>
+            <p>Whether you want to track your gaming scores, plan a party, or organize your sports team stats — spreadsheets can do it all!</p>
         </section>
 
-        <h2 id="lessons" class="section-title">🗺️ 9 Lessons to Master Excel</h2>
-        <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3 lesson-grid">
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 1</h3><h4>Getting Started</h4><p>Opening Excel, understanding the screen</p><a href="lessons/lesson1-getting-started.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 2</h3><h4>Entering Data</h4><p>Typing, editing, and organizing information</p><a href="lessons/lesson2-entering-data.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 3</h3><h4>Basic Formulas</h4><p>SUM, AVERAGE, MAX, MIN and more</p><a href="lessons/lesson3-basic-formulas.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 4</h3><h4>Charts & Graphs</h4><p>Turning data into cool visuals</p><a href="lessons/lesson4-charts-graphs.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 5</h3><h4>Fun Projects</h4><p>Games, movies, sports trackers</p><a href="lessons/lesson5-fun-projects.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 6</h3><h4>Sorting & Filtering</h4><p>Organize data alphabetically or numerically</p><a href="lessons/lesson6-sorting-filtering.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 7</h3><h4>IF Statements</h4><p>Make cells show different things based on conditions</p><a href="lessons/lesson7-if-statements.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 8</h3><h4>VLOOKUP</h4><p>Search for data across sheets</p><a href="lessons/lesson8-vlookup.md" class="button success expanded">View Lesson</a></div></div></div>
-            <div class="cell"><div class="card lesson-card"><div class="card-section"><h3>Lesson 9</h3><h4>Conditional Formatting</h4><p>Automatically color cells based on their values</p><a href="lessons/lesson9-conditional-formatting.md" class="button success expanded">View Lesson</a></div></div></div>
+        <h2 id="lessons" class="ui header section-title">🗺️ 9 Lessons to Master Excel</h2>
+        <div class="ui stackable three column grid lesson-grid">
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 1</div><div class="meta">Getting Started</div><div class="description">Opening Excel, understanding the screen</div></div><div class="extra content"><a href="lessons/lesson1-getting-started.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 2</div><div class="meta">Entering Data</div><div class="description">Typing, editing, and organizing information</div></div><div class="extra content"><a href="lessons/lesson2-entering-data.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 3</div><div class="meta">Basic Formulas</div><div class="description">SUM, AVERAGE, MAX, MIN and more</div></div><div class="extra content"><a href="lessons/lesson3-basic-formulas.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 4</div><div class="meta">Charts & Graphs</div><div class="description">Turning data into cool visuals</div></div><div class="extra content"><a href="lessons/lesson4-charts-graphs.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 5</div><div class="meta">Fun Projects</div><div class="description">Games, movies, sports trackers</div></div><div class="extra content"><a href="lessons/lesson5-fun-projects.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 6</div><div class="meta">Sorting & Filtering</div><div class="description">Organize data alphabetically or numerically</div></div><div class="extra content"><a href="lessons/lesson6-sorting-filtering.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 7</div><div class="meta">IF Statements</div><div class="description">Make cells show different things based on conditions</div></div><div class="extra content"><a href="lessons/lesson7-if-statements.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 8</div><div class="meta">VLOOKUP</div><div class="description">Search for data across sheets</div></div><div class="extra content"><a href="lessons/lesson8-vlookup.md" class="ui fluid positive button">View Lesson</a></div></div></div>
+            <div class="column"><div class="ui fluid card lesson-card"><div class="content"><div class="header">Lesson 9</div><div class="meta">Conditional Formatting</div><div class="description">Automatically color cells based on their values</div></div><div class="extra content"><a href="lessons/lesson9-conditional-formatting.md" class="ui fluid positive button">View Lesson</a></div></div></div>
         </div>
 
-        <section id="data" class="content-panel callout">
-            <h2 class="section-title">📂 Sample Data Files</h2>
+        <section id="data" class="ui raised segment content-panel">
+            <h2 class="ui header section-title">📂 Sample Data Files</h2>
             <p>Practice with real data! Download these files from our <a href="https://github.com/Vormamim/BeginnersExcel/tree/gh-pages-setup/data" target="_blank">data folder</a>:</p>
-            <div class="table-scroll">
-                <table class="hover stack">
-                    <thead>
-                        <tr>
-                            <th>File</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>video_games.csv</strong></td><td>Top-selling video games of all time</td></tr>
-                        <tr><td><strong>sports_scores.csv</strong></td><td>Soccer season scores</td></tr>
-                        <tr><td><strong>movies.csv</strong></td><td>Highest-rated movies for kids</td></tr>
-                        <tr><td><strong>candy_data.csv</strong></td><td>Candy rankings and sugar content</td></tr>
-                        <tr><td><strong>school_grades.csv</strong></td><td>Sample student grade tracker</td></tr>
-                        <tr><td><strong>minecraft_items.csv</strong></td><td>Minecraft item stats for the capstone task</td></tr>
-                    </tbody>
-                </table>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>video_games.csv</strong></td><td>Top-selling video games of all time</td></tr>
+                    <tr><td><strong>sports_scores.csv</strong></td><td>Soccer season scores</td></tr>
+                    <tr><td><strong>movies.csv</strong></td><td>Highest-rated movies for kids</td></tr>
+                    <tr><td><strong>candy_data.csv</strong></td><td>Candy rankings and sugar content</td></tr>
+                    <tr><td><strong>school_grades.csv</strong></td><td>Sample student grade tracker</td></tr>
+                    <tr><td><strong>minecraft_items.csv</strong></td><td>Minecraft item stats for the capstone task</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="ui raised segment content-panel">
+            <h2 class="ui header section-title">✅ Track Your Progress</h2>
+            <p>Keep track of all the skills you've mastered:</p>
+            <a href="checklist.md" class="ui primary button">View Skills Checklist</a>
+        </section>
+
+        <section class="ui raised segment content-panel">
+            <h2 class="ui header section-title">🧩 Major Practice Task</h2>
+            <p>Ready for a bigger challenge? Apply your spreadsheet skills in a full activity.</p>
+            <a href="tasks/minecraft-handin-task.md" class="ui primary button">Open Minecraft Task</a>
+        </section>
+
+        <section class="ui raised segment content-panel">
+            <h2 class="ui header section-title">👩‍🏫 Teacher Resources</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item"><a href="teacher-resources/projectplan.md">Project Plan Workbook</a></div>
+                <div class="item"><a href="teacher-resources/taskhelp.md">Task Help Guide</a></div>
             </div>
         </section>
 
-        <section class="content-panel callout">
-            <h2 class="section-title">✅ Track Your Progress</h2>
-            <p>Keep track of all the skills you've mastered:</p>
-            <a href="checklist.md" class="button primary">View Skills Checklist</a>
-        </section>
-
-        <section class="content-panel callout">
-            <h2 class="section-title">🧩 Major Practice Task</h2>
-            <p>Ready for a bigger challenge? Apply your spreadsheet skills in a full activity.</p>
-            <a href="tasks/minecraft-handin-task.md" class="button primary">Open Minecraft Task</a>
-        </section>
-
-        <section class="content-panel callout">
-            <h2 class="section-title">👩‍🏫 Teacher Resources</h2>
-            <ul class="no-bullet feature-list">
-                <li><a href="teacher-resources/projectplan.md">Project Plan Workbook</a></li>
-                <li><a href="teacher-resources/taskhelp.md">Task Help Guide</a></li>
-            </ul>
-        </section>
-
-        <section class="content-panel callout">
-            <h2 class="section-title">🚀 How to Use This Tutorial</h2>
-            <ol>
+        <section class="ui raised segment content-panel">
+            <h2 class="ui header section-title">🚀 How to Use This Tutorial</h2>
+            <ol class="ui list">
                 <li><strong>Read each lesson</strong> in order — they build on each other.</li>
                 <li><strong>Try the activities</strong> at the end of every lesson.</li>
                 <li><strong>Use the data files</strong> to practice your skills.</li>
@@ -117,17 +107,14 @@
         </section>
     </main>
 
-    <footer class="footer-section text-center">
-        <div class="grid-container">
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
             <p>🌟 Happy learning! Built with ❤️ for beginners</p>
             <p><a href="https://github.com/Vormamim/BeginnersExcel" target="_blank">View on GitHub</a></p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
 </body>
 </html>
