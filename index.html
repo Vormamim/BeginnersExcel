@@ -4,295 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beginners Excel - Learn Spreadsheets the Fun Way</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstra.386-cdn@4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <div class="ui fixed top menu">
-        <div class="ui container">
-            <div class="header item">
-                📊 Beginners Excel
-            </div>
-            <a href="#lessons" class="item">Lessons</a>
-            <a href="#features" class="item">Features</a>
-            <a href="#data" class="item">Sample Data</a>
-            <div class="right menu">
-                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">
-                    <i class="github icon"></i> GitHub
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Hero Section -->
-    <div class="ui inverted vertical center aligned segment" style="margin-top: 50px; padding: 100px 0;">
-        <div class="ui container">
-            <h1 class="ui inverted header" style="font-size: 3em; margin-bottom: 20px;">
-                🎮 Learn Spreadsheets the Fun Way!
-            </h1>
-            <p style="font-size: 1.3em; opacity: 0.9;">
-                A step-by-step tutorial for beginners to learn spreadsheet basics through games, movies, and sports
-            </p>
-            <button class="ui primary button" style="margin-top: 20px; font-size: 1.1em;">
-                <a href="#lessons" style="color: white; text-decoration: none;">Start Learning</a>
+    <nav class="navbar navbar-expand-lg navbar-dark app-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">📊 Beginners Excel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#lessons">Lessons</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#data">Sample Data</a></li>
+                </ul>
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+            </div>
         </div>
-    </div>
+    </nav>
 
-    <!-- Main Content -->
-    <div class="ui container" style="margin-top: 50px; margin-bottom: 50px;">
-        <!-- What is Excel -->
-        <div id="features" class="ui segment">
-            <h2 class="ui header">💡 What is Excel?</h2>
+    <header class="jumbotron jumbotron-fluid hero-section text-center text-white mb-0">
+        <div class="container py-5">
+            <h1 class="display-4 mb-3">🎮 Learn Spreadsheets the Fun Way!</h1>
+            <p class="lead mb-4">A step-by-step tutorial for beginners to learn spreadsheet basics through games, movies, and sports</p>
+            <a href="#lessons" class="btn btn-primary btn-lg">Start Learning</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="features" class="content-panel mb-4 p-4">
+            <h2 class="section-title">💡 What is Excel?</h2>
             <p>Excel is a <strong>spreadsheet program</strong> made by Microsoft. People use it every day to:</p>
-            <div class="ui relaxed list">
-                <div class="item">
-                    <i class="chart icon"></i>
-                    <div class="content">Track scores and grades</div>
-                </div>
-                <div class="item">
-                    <i class="money icon"></i>
-                    <div class="content">Manage money and budgets</div>
-                </div>
-                <div class="item">
-                    <i class="chart line icon"></i>
-                    <div class="content">Create charts and graphs</div>
-                </div>
-                <div class="item">
-                    <i class="list icon"></i>
-                    <div class="content">Organize lists and data</div>
-                </div>
-            </div>
-            <p style="margin-top: 20px;">Whether you want to track your gaming scores, plan a party, or organize your sports team stats — spreadsheets can do it all!</p>
+            <ul class="list-group list-group-flush feature-list mb-3">
+                <li class="list-group-item">📊 Track scores and grades</li>
+                <li class="list-group-item">💰 Manage money and budgets</li>
+                <li class="list-group-item">📈 Create charts and graphs</li>
+                <li class="list-group-item">📋 Organize lists and data</li>
+            </ul>
+            <p class="mb-0">Whether you want to track your gaming scores, plan a party, or organize your sports team stats — spreadsheets can do it all!</p>
+        </section>
+
+        <h2 id="lessons" class="section-title mt-5 mb-4">🗺️ 9 Lessons to Master Excel</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 1</h3><h4 class="card-subtitle mb-2 text-muted">Getting Started</h4><p class="card-text">Opening Excel, understanding the screen</p><a href="lessons/lesson1-getting-started.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 2</h3><h4 class="card-subtitle mb-2 text-muted">Entering Data</h4><p class="card-text">Typing, editing, and organizing information</p><a href="lessons/lesson2-entering-data.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 3</h3><h4 class="card-subtitle mb-2 text-muted">Basic Formulas</h4><p class="card-text">SUM, AVERAGE, MAX, MIN and more</p><a href="lessons/lesson3-basic-formulas.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 4</h3><h4 class="card-subtitle mb-2 text-muted">Charts & Graphs</h4><p class="card-text">Turning data into cool visuals</p><a href="lessons/lesson4-charts-graphs.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 5</h3><h4 class="card-subtitle mb-2 text-muted">Fun Projects</h4><p class="card-text">Games, movies, sports trackers</p><a href="lessons/lesson5-fun-projects.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 6</h3><h4 class="card-subtitle mb-2 text-muted">Sorting & Filtering</h4><p class="card-text">Organize data alphabetically or numerically</p><a href="lessons/lesson6-sorting-filtering.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 7</h3><h4 class="card-subtitle mb-2 text-muted">IF Statements</h4><p class="card-text">Make cells show different things based on conditions</p><a href="lessons/lesson7-if-statements.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 8</h3><h4 class="card-subtitle mb-2 text-muted">VLOOKUP</h4><p class="card-text">Search for data across sheets</p><a href="lessons/lesson8-vlookup.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
+            <div class="col-md-4 mb-4"><div class="card lesson-card h-100"><div class="card-body"><h3 class="card-title h5">Lesson 9</h3><h4 class="card-subtitle mb-2 text-muted">Conditional Formatting</h4><p class="card-text">Automatically color cells based on their values</p><a href="lessons/lesson9-conditional-formatting.md" class="btn btn-success btn-block">View Lesson</a></div></div></div>
         </div>
 
-        <!-- Lessons -->
-        <h2 id="lessons" class="ui header" style="margin-top: 60px;">🗺️ 9 Lessons to Master Excel</h2>
-        
-        <div class="ui three column grid">
-            <!-- Lesson 1 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 1
-                            <div class="sub header">Getting Started</div>
-                        </div>
-                    </h3>
-                    <p>Opening Excel, understanding the screen</p>
-                    <a href="lessons/lesson1-getting-started.md" class="ui button fluid">View Lesson</a>
-                </div>
+        <section id="data" class="mt-5">
+            <h2 class="section-title mb-3">📂 Sample Data Files</h2>
+            <p>Practice with real data! Download these files from our <a href="https://github.com/Vormamim/BeginnersExcel/tree/gh-pages-setup/data" target="_blank">data folder</a>:</p>
+            <div class="table-responsive content-panel p-3">
+                <table class="table table-bordered table-striped mb-0">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>File</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>video_games.csv</strong></td><td>Top-selling video games of all time</td></tr>
+                        <tr><td><strong>sports_scores.csv</strong></td><td>Soccer season scores</td></tr>
+                        <tr><td><strong>movies.csv</strong></td><td>Highest-rated movies for kids</td></tr>
+                        <tr><td><strong>candy_data.csv</strong></td><td>Candy rankings and sugar content</td></tr>
+                        <tr><td><strong>school_grades.csv</strong></td><td>Sample student grade tracker</td></tr>
+                        <tr><td><strong>minecraft_items.csv</strong></td><td>Minecraft item stats for the capstone task</td></tr>
+                    </tbody>
+                </table>
             </div>
+        </section>
 
-            <!-- Lesson 2 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 2
-                            <div class="sub header">Entering Data</div>
-                        </div>
-                    </h3>
-                    <p>Typing, editing, and organizing information</p>
-                    <a href="lessons/lesson2-entering-data.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 3 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 3
-                            <div class="sub header">Basic Formulas</div>
-                        </div>
-                    </h3>
-                    <p>SUM, AVERAGE, MAX, MIN and more</p>
-                    <a href="lessons/lesson3-basic-formulas.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 4 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 4
-                            <div class="sub header">Charts & Graphs</div>
-                        </div>
-                    </h3>
-                    <p>Turning data into cool visuals</p>
-                    <a href="lessons/lesson4-charts-graphs.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 5 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 5
-                            <div class="sub header">Fun Projects</div>
-                        </div>
-                    </h3>
-                    <p>Games, movies, sports trackers</p>
-                    <a href="lessons/lesson5-fun-projects.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 6 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 6
-                            <div class="sub header">Sorting & Filtering</div>
-                        </div>
-                    </h3>
-                    <p>Organize data alphabetically or numerically</p>
-                    <a href="lessons/lesson6-sorting-filtering.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 7 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 7
-                            <div class="sub header">IF Statements</div>
-                        </div>
-                    </h3>
-                    <p>Make cells show different things based on conditions</p>
-                    <a href="lessons/lesson7-if-statements.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 8 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 8
-                            <div class="sub header">VLOOKUP</div>
-                        </div>
-                    </h3>
-                    <p>Search for data across sheets</p>
-                    <a href="lessons/lesson8-vlookup.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-
-            <!-- Lesson 9 -->
-            <div class="column">
-                <div class="ui segment">
-                    <h3 class="ui header">
-                        <div class="content">
-                            Lesson 9
-                            <div class="sub header">Conditional Formatting</div>
-                        </div>
-                    </h3>
-                    <p>Automatically color cells based on their values</p>
-                    <a href="lessons/lesson9-conditional-formatting.md" class="ui button fluid">View Lesson</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sample Data -->
-        <h2 id="data" class="ui header" style="margin-top: 60px;">📂 Sample Data Files</h2>
-        <p>Practice with real data! Download these files from our <a href="https://github.com/Vormamim/BeginnersExcel/tree/gh-pages-setup/data" target="_blank">data folder</a>:</p>
-        
-        <table class="ui celled table">
-            <thead>
-                <tr>
-                    <th>File</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>video_games.csv</strong></td>
-                    <td>Top-selling video games of all time</td>
-                </tr>
-                <tr>
-                    <td><strong>sports_scores.csv</strong></td>
-                    <td>Soccer season scores</td>
-                </tr>
-                <tr>
-                    <td><strong>movies.csv</strong></td>
-                    <td>Highest-rated movies for kids</td>
-                </tr>
-                <tr>
-                    <td><strong>candy_data.csv</strong></td>
-                    <td>Candy rankings and sugar content</td>
-                </tr>
-                <tr>
-                    <td><strong>school_grades.csv</strong></td>
-                    <td>Sample student grade tracker</td>
-                </tr>
-                <tr>
-                    <td><strong>minecraft_items.csv</strong></td>
-                    <td>Minecraft item stats for the capstone task</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- Progress Tracker -->
-        <div class="ui segment" style="margin-top: 40px;">
-            <h2 class="ui header">✅ Track Your Progress</h2>
+        <section class="content-panel mt-4 p-4">
+            <h2 class="section-title">✅ Track Your Progress</h2>
             <p>Keep track of all the skills you've mastered:</p>
-            <a href="checklist.md" class="ui primary button">View Skills Checklist</a>
-        </div>
+            <a href="checklist.md" class="btn btn-primary">View Skills Checklist</a>
+        </section>
 
-        <!-- Major Task -->
-        <div class="ui segment" style="margin-top: 20px;">
-            <h2 class="ui header">🧩 Major Practice Task</h2>
+        <section class="content-panel mt-4 p-4">
+            <h2 class="section-title">🧩 Major Practice Task</h2>
             <p>Ready for a bigger challenge? Apply your spreadsheet skills in a full activity.</p>
-            <a href="tasks/minecraft-handin-task.md" class="ui primary button">Open Minecraft Task</a>
-        </div>
+            <a href="tasks/minecraft-handin-task.md" class="btn btn-primary">Open Minecraft Task</a>
+        </section>
 
-        <!-- Teacher Resources -->
-        <div class="ui segment" style="margin-top: 20px;">
-            <h2 class="ui header">👩‍🏫 Teacher Resources</h2>
-            <div class="ui relaxed list">
-                <div class="item">
-                    <i class="file alternate icon"></i>
-                    <div class="content">
-                        <a href="teacher-resources/projectplan.md">Project Plan Workbook</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <i class="book icon"></i>
-                    <div class="content">
-                        <a href="teacher-resources/taskhelp.md">Task Help Guide</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <section class="content-panel mt-4 p-4">
+            <h2 class="section-title">👩‍🏫 Teacher Resources</h2>
+            <ul class="list-group list-group-flush feature-list">
+                <li class="list-group-item"><a href="teacher-resources/projectplan.md">Project Plan Workbook</a></li>
+                <li class="list-group-item"><a href="teacher-resources/taskhelp.md">Task Help Guide</a></li>
+            </ul>
+        </section>
 
-        <!-- How to Use -->
-        <div class="ui segment" style="margin-top: 20px;">
-            <h2 class="ui header">🚀 How to Use This Tutorial</h2>
-            <ol class="ui relaxed list">
+        <section class="content-panel mt-4 p-4">
+            <h2 class="section-title">🚀 How to Use This Tutorial</h2>
+            <ol class="mb-0">
                 <li><strong>Read each lesson</strong> in order — they build on each other.</li>
                 <li><strong>Try the activities</strong> at the end of every lesson.</li>
                 <li><strong>Use the data files</strong> to practice your skills.</li>
                 <li><strong>Complete the Minecraft task</strong> when you're ready for a bigger challenge.</li>
                 <li>Have fun and don't be afraid to experiment! 🎮</li>
             </ol>
-        </div>
-    </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <div class="ui inverted vertical segment" style="margin-top: 80px;">
-        <div class="ui center aligned container">
-            <p>🌟 Happy learning! Built with ❤️ for beginners</p>
-            <p><a href="https://github.com/Vormamim/BeginnersExcel" style="color: white;" target="_blank">View on GitHub</a></p>
+    <footer class="text-center text-white py-4 footer-section">
+        <div class="container">
+            <p class="mb-2">🌟 Happy learning! Built with ❤️ for beginners</p>
+            <p class="mb-0"><a href="https://github.com/Vormamim/BeginnersExcel" class="text-white" target="_blank">View on GitHub</a></p>
         </div>
-    </div>
+    </footer>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstra.386-cdn@4.4.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
