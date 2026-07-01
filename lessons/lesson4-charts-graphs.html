@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 - Charts & Graphs | Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            min-height: 840px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            width: 100%;
+            min-height: 840px;
+            height: 840px;
+            border: 0;
+            display: block;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                min-height: 700px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 700px;
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                min-height: 520px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 520px;
+                height: 520px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 4: Charts & Graphs</h1>
+            <p class="hero-copy">Learn how to turn your table into a chart so your data is easier to read, compare, and understand.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
+        </div>
+    </div>
+
+    <main id="lesson-content" class="ui container page-content lesson-page lesson-page-wide">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Understand why charts are useful</div>
+                <div class="item">Create a simple chart from data in a table</div>
+                <div class="item">Add a chart title and data labels</div>
+                <div class="item">Know when to use bar, pie, and line charts</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+            </div>
+            <p>Look at the demo sheet first. Then make your own chart by following the steps below.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open the demo sheet and look at the table and the chart.</div>
+                <div class="item">Open a blank workbook in Excel or a blank Google Sheet.</div>
+                <div class="item">Type a small table with names and scores.</div>
+                <div class="item">Select the whole table, including the headings.</div>
+                <div class="item">Insert a chart.</div>
+                <div class="item">Choose a chart type that matches your data.</div>
+                <div class="item">Add a clear title.</div>
+                <div class="item">Add data labels so the numbers are easy to see.</div>
+                <div class="item">Save your file with a clear name.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-sheet-panel inline-sheet-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">📄 Lesson Spreadsheet</h2>
+                <div class="ui small teal label">Demo Sheet</div>
+            </div>
+            <p class="lesson-panel-copy">Use this Google Sheet as a demo. It shows a simple table and chart so you can see what the finished work should look like before making your own version.</p>
+            <div class="ui clearing basic segment" style="padding-left:0;padding-right:0;">
+                <a href="https://docs.google.com/spreadsheets/d/1roho3DgDtKroBxPo0Z4G4vIwaExVR9V2J4rIhkOBlUk/edit?usp=sharing" class="ui right floated primary button" target="_blank" rel="noopener noreferrer">Open Full Spreadsheet</a>
+            </div>
+            <div class="ui info message">
+                <div class="header">How to use this</div>
+                <p>First, study the demo sheet. Then open a blank spreadsheet, type your own table, and create a chart from it.</p>
+            </div>
+            <div class="sheet-frame-wrap lesson-sheet-inline-frame">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1roho3DgDtKroBxPo0Z4G4vIwaExVR9V2J4rIhkOBlUk/edit?usp=sharing"
+                    title="Lesson 4 Google Sheet"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📊 Step 1: Why Use a Chart?</h2>
+            <p>A chart turns a table of numbers into a picture. This makes the information easier to understand quickly.</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">Charts help you compare values.</div>
+                <div class="item">Charts make patterns easier to spot.</div>
+                <div class="item">Charts can make your work more interesting to look at.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Example</div>
+                <p>It is easier to see who has the highest score by looking at a chart than by reading lots of numbers in a table.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧮 Step 2: Type a Simple Table</h2>
+            <p>Before you can make a chart, you need some data.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>A1</strong> and type <strong>Player</strong>.</div>
+                <div class="item">Click cell <strong>B1</strong> and type <strong>Score</strong>.</div>
+                <div class="item">In <strong>A2</strong>, type <strong>Alex</strong>. In <strong>B2</strong>, type <strong>150</strong>.</div>
+                <div class="item">In <strong>A3</strong>, type <strong>Blake</strong>. In <strong>B3</strong>, type <strong>230</strong>.</div>
+                <div class="item">In <strong>A4</strong>, type <strong>Casey</strong>. In <strong>B4</strong>, type <strong>175</strong>.</div>
+                <div class="item">In <strong>A5</strong>, type <strong>Dana</strong>. In <strong>B5</strong>, type <strong>310</strong>.</div>
+                <div class="item">In <strong>A6</strong>, type <strong>Evan</strong>. In <strong>B6</strong>, type <strong>190</strong>.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🖱️ Step 3: Select the Data</h2>
+            <p>The spreadsheet needs to know which data you want to turn into a chart.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>A1</strong>.</div>
+                <div class="item">Hold <strong>Shift</strong>.</div>
+                <div class="item">Click cell <strong>B6</strong>.</div>
+                <div class="item">Now the range <strong>A1:B6</strong> should be selected.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Important</div>
+                <p>Make sure you include the headings as well as the numbers. The headings help label the chart correctly.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📈 Step 4: Insert a Chart</h2>
+            <p>Now you can turn the selected data into a chart.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the <strong>Insert</strong> menu or tab.</div>
+                <div class="item">Choose <strong>Chart</strong>.</div>
+                <div class="item">If there is a choice, pick a <strong>Bar Chart</strong> or <strong>Column Chart</strong>.</div>
+                <div class="item">Your spreadsheet should create a chart from the table.</div>
+            </div>
+            <div class="ui warning message">
+                <div class="header">Do not worry if it looks different</div>
+                <p>Excel and Google Sheets do not always look exactly the same, but the steps are very similar.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🏷️ Step 5: Add a Chart Title</h2>
+            <p>A title tells the reader what the chart is about.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the chart title area.</div>
+                <div class="item">Type <strong>Game Scores Comparison</strong>.</div>
+                <div class="item">Click away from the chart when you are done.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔢 Step 6: Add Data Labels</h2>
+            <p>Data labels show the exact number on each bar or column.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the chart once.</div>
+                <div class="item">Look for an option called <strong>Data Labels</strong>.</div>
+                <div class="item">Turn data labels on.</div>
+                <div class="item">Now the numbers should appear on the chart.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎨 Step 7: Change the Style</h2>
+            <p>You can make your chart easier to read and more fun to look at.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the chart.</div>
+                <div class="item">Try changing the color.</div>
+                <div class="item">Make the chart bigger or smaller if needed.</div>
+                <div class="item">Move it so it does not cover your table.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📚 Step 8: Know the Main Chart Types</h2>
+            <p>Different charts are useful for different kinds of data.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Chart type</th>
+                        <th>Best for</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Bar Chart</strong></td><td>Comparing different items</td></tr>
+                    <tr><td><strong>Column Chart</strong></td><td>Comparing values in vertical bars</td></tr>
+                    <tr><td><strong>Line Chart</strong></td><td>Showing change over time</td></tr>
+                    <tr><td><strong>Pie Chart</strong></td><td>Showing parts of a whole</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧪 Try It: Make a Different Chart</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Use the same table again.</div>
+                <div class="item">Try changing your chart to a different type.</div>
+                <div class="item">Look at how the information changes when you use a bar chart, column chart, or pie chart.</div>
+                <div class="item">Decide which chart is easiest to read.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">💾 Step 9: Save Your Workbook</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click <strong>File</strong>.</div>
+                <div class="item">Click <strong>Save As</strong>.</div>
+                <div class="item">Choose a folder you can find again later.</div>
+                <div class="item">Name the file something clear like <strong>lesson4-charts-graphs.xlsx</strong>.</div>
+                <div class="item">Click <strong>Save</strong>.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Check Your Understanding</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Why is a chart useful?</div>
+                <div class="item">Why should you include the headings when selecting data?</div>
+                <div class="item">What do data labels do?</div>
+                <div class="item">When would you use a line chart instead of a bar chart?</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you finish this lesson, move on to <strong>Lesson 5: Fun Projects</strong>.</p>
+            <a href="lesson5-fun-projects.html" class="ui positive button">Go to Lesson 5</a>
+            <a href="lesson3-basic-formulas.html" class="ui button">Back to Lesson 3</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 4 complete? Great job! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
