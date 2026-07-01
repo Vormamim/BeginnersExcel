@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5 - Fun Projects | Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            min-height: 840px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            width: 100%;
+            min-height: 840px;
+            height: 840px;
+            border: 0;
+            display: block;
+        }
+
+        .project-card {
+            border-left: 6px solid #2185d0;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                min-height: 700px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 700px;
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                min-height: 520px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 520px;
+                height: 520px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 5: Fun Projects</h1>
+            <p class="hero-copy">Use everything you have learned so far to build fun, creative spreadsheets with tables, formulas, and charts.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
+        </div>
+    </div>
+
+    <main id="lesson-content" class="ui container page-content lesson-page lesson-page-wide">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Use data entry, formatting, formulas, and charts together</div>
+                <div class="item">Build complete spreadsheets for different topics</div>
+                <div class="item">Practice choosing the right chart for the job</div>
+                <div class="item">Create a project that is clear, colourful, and useful</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+            </div>
+            <p>Look at the demo sheet first. Then choose one project below and build your own version in Excel or Google Sheets.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open the demo sheet and explore the project tabs.</div>
+                <div class="item">Pick one project to build first.</div>
+                <div class="item">Type the headings and sample data into your own spreadsheet.</div>
+                <div class="item">Add at least one formula.</div>
+                <div class="item">Create at least one chart.</div>
+                <div class="item">Format the sheet so it is neat and easy to read.</div>
+                <div class="item">If you finish early, try a second project or create your own idea.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-sheet-panel inline-sheet-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">📄 Lesson Spreadsheet</h2>
+                <div class="ui small teal label">Demo Sheet</div>
+            </div>
+            <p class="lesson-panel-copy">Use this Google Sheet as a demo. It shows example project layouts so you can see what a finished project might look like before building your own.</p>
+            <div class="ui clearing basic segment" style="padding-left:0;padding-right:0;">
+                <a href="https://docs.google.com/spreadsheets/d/1rdwwDlfNrk8QiqA0Y5H9JlwlIwKHFy4Vx3Jix9F_Doo/edit?usp=sharing" class="ui right floated primary button" target="_blank" rel="noopener noreferrer">Open Full Spreadsheet</a>
+            </div>
+            <div class="ui info message">
+                <div class="header">How to use this</div>
+                <p>Study the examples in the demo sheet, then type the tables yourself and build your own finished project.</p>
+            </div>
+            <div class="sheet-frame-wrap lesson-sheet-inline-frame">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1rdwwDlfNrk8QiqA0Y5H9JlwlIwKHFy4Vx3Jix9F_Doo/edit?usp=sharing"
+                    title="Lesson 5 Google Sheet"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section project-card">
+            <h2 class="ui header section-title">🎮 Project 1: Ultimate Video Game Tracker</h2>
+            <p>Create a spreadsheet to track your favourite video games.</p>
+            <h3 class="ui small header">Suggested headings</h3>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Game Title</th>
+                        <th>Platform</th>
+                        <th>Genre</th>
+                        <th>Hours Played</th>
+                        <th>My Rating (1-10)</th>
+                        <th>Completed?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Minecraft</td><td>PC</td><td>Sandbox</td><td>200</td><td>10</td><td>No</td></tr>
+                    <tr><td>Mario Kart 8</td><td>Switch</td><td>Racing</td><td>50</td><td>9</td><td>Yes</td></tr>
+                    <tr><td>Fortnite</td><td>PC</td><td>Battle Royale</td><td>120</td><td>8</td><td>No</td></tr>
+                    <tr><td>Zelda: BOTW</td><td>Switch</td><td>Adventure</td><td>85</td><td>10</td><td>Yes</td></tr>
+                    <tr><td>Roblox</td><td>PC</td><td>Sandbox</td><td>300</td><td>7</td><td>No</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the headings in Row 1.</div>
+                <div class="item">Add at least 5 to 10 games.</div>
+                <div class="item">Below the table, add formulas for total hours, average rating, highest rating, and total games.</div>
+                <div class="item">Make a <strong>Bar Chart</strong> using <strong>Game Title</strong> and <strong>Hours Played</strong>.</div>
+                <div class="item">Title the chart <strong>Time Spent on Each Game</strong>.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Helpful formulas</div>
+                <p><strong>=SUM(...)</strong>, <strong>=AVERAGE(...)</strong>, <strong>=MAX(...)</strong>, and <strong>=COUNT(...)</strong> are great for this project.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section project-card">
+            <h2 class="ui header section-title">⚽ Project 2: Sports Season Tracker</h2>
+            <p>Track your favourite sports team's season.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Game #</th>
+                        <th>Opponent</th>
+                        <th>Goals For</th>
+                        <th>Goals Against</th>
+                        <th>Result</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Tigers</td><td>3</td><td>1</td><td>Win</td><td>3</td></tr>
+                    <tr><td>2</td><td>Eagles</td><td>0</td><td>2</td><td>Loss</td><td>0</td></tr>
+                    <tr><td>3</td><td>Sharks</td><td>2</td><td>2</td><td>Draw</td><td>1</td></tr>
+                    <tr><td>4</td><td>Lions</td><td>4</td><td>0</td><td>Win</td><td>3</td></tr>
+                    <tr><td>5</td><td>Wolves</td><td>1</td><td>3</td><td>Loss</td><td>0</td></tr>
+                    <tr><td>6</td><td>Bears</td><td>3</td><td>1</td><td>Win</td><td>3</td></tr>
+                    <tr><td>7</td><td>Hawks</td><td>2</td><td>2</td><td>Draw</td><td>1</td></tr>
+                    <tr><td>8</td><td>Foxes</td><td>5</td><td>1</td><td>Win</td><td>3</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the table into your spreadsheet.</div>
+                <div class="item">Add a season summary underneath with totals for goals scored, goals conceded, points, wins, losses, and draws.</div>
+                <div class="item">Use <strong>=COUNTIF(...)</strong> to count wins, losses, and draws.</div>
+                <div class="item">Make a <strong>Pie Chart</strong> for wins, losses, and draws.</div>
+                <div class="item">Make a <strong>Column Chart</strong> for goals for and goals against.</div>
+            </div>
+            <div class="ui warning message">
+                <div class="header">New formula idea</div>
+                <p><strong>=COUNTIF(range,"Win")</strong> counts how many cells contain the word <strong>Win</strong>.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section project-card">
+            <h2 class="ui header section-title">🎬 Project 3: Movie Night Planner</h2>
+            <p>Create a spreadsheet to rate movies and find your favourites.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Year</th>
+                        <th>Genre</th>
+                        <th>My Rating (1-10)</th>
+                        <th>Friend's Rating</th>
+                        <th>Watch Again?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Toy Story</td><td>1995</td><td>Animation</td><td>9</td><td>8</td><td>Yes</td></tr>
+                    <tr><td>Frozen</td><td>2013</td><td>Musical</td><td>8</td><td>9</td><td>Yes</td></tr>
+                    <tr><td>Shrek</td><td>2001</td><td>Comedy</td><td>10</td><td>10</td><td>Yes</td></tr>
+                    <tr><td>Minions</td><td>2015</td><td>Comedy</td><td>7</td><td>6</td><td>No</td></tr>
+                    <tr><td>Moana</td><td>2016</td><td>Adventure</td><td>9</td><td>9</td><td>Yes</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the headings and movie data.</div>
+                <div class="item">Add averages for your ratings and your friend's ratings.</div>
+                <div class="item">Use <strong>=MAX(...)</strong> to find the highest rating.</div>
+                <div class="item">Use <strong>=COUNTIF(...,"Yes")</strong> to count how many movies you would watch again.</div>
+                <div class="item">Colour rows green for <strong>Yes</strong> and red for <strong>No</strong> if you want a challenge.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section project-card">
+            <h2 class="ui header section-title">🍬 Project 4: Lollies Shop Simulator</h2>
+            <p>Use candy data ideas to run a pretend sweet shop.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Lolly</th>
+                        <th>Flavour</th>
+                        <th>Price ($)</th>
+                        <th>Quantity in Stock</th>
+                        <th>Total Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Chocolate Bar</td><td>Chocolate</td><td>2</td><td>20</td><td>=C2*D2</td></tr>
+                    <tr><td>Gummy Bears</td><td>Fruit</td><td>1</td><td>35</td><td>=C3*D3</td></tr>
+                    <tr><td>Lollipop</td><td>Strawberry</td><td>1</td><td>15</td><td>=C4*D4</td></tr>
+                    <tr><td>Sour Worms</td><td>Sour Fruit</td><td>3</td><td>10</td><td>=C5*D5</td></tr>
+                    <tr><td>Candy Corn</td><td>Vanilla</td><td>2</td><td>12</td><td>=C6*D6</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the headings and sample items.</div>
+                <div class="item">Use a formula to work out <strong>Total Value</strong> for each row.</div>
+                <div class="item">Below the table, calculate total inventory value, most expensive lolly, and average price.</div>
+                <div class="item">Make a <strong>Bar Chart</strong> showing the price of each lolly.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🌟 Bonus Challenge: Design Your Own Spreadsheet</h2>
+            <p>Now create something completely your own. You could make a:</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">Book tracker</div>
+                <div class="item">Music tracker</div>
+                <div class="item">Weather log</div>
+                <div class="item">Birthday planner</div>
+                <div class="item">Achievement tracker</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Try to include these</div>
+                <p>Use clear headings, at least one formula, at least one chart, and some colour formatting that makes the sheet easy to read.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Lesson 5 Recap</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">You used data entry and formatting</div>
+                <div class="item">You used SUM, AVERAGE, MAX, COUNT, and COUNTIF</div>
+                <div class="item">You created project tables and charts</div>
+                <div class="item">You built spreadsheets that feel useful and fun</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🏁 You Finished the First 5 Lessons!</h2>
+            <p>Great job — you now know how to enter data, format cells, use formulas, and create charts.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Done?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Navigate the Excel screen</td><td>✔️</td></tr>
+                    <tr><td>Enter and edit data</td><td>✔️</td></tr>
+                    <tr><td>Format cells</td><td>✔️</td></tr>
+                    <tr><td>Use formulas</td><td>✔️</td></tr>
+                    <tr><td>Create charts and graphs</td><td>✔️</td></tr>
+                    <tr><td>Build full spreadsheet projects</td><td>✔️</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you are ready, move on to <strong>Lesson 6: Sorting & Filtering</strong>.</p>
+            <a href="lesson6-sorting-filtering.html" class="ui positive button">Go to Lesson 6</a>
+            <a href="lesson4-charts-graphs.html" class="ui button">Back to Lesson 4</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 5 complete? Amazing work! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
