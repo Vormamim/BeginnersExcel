@@ -69,7 +69,7 @@
         <div class="ui text container">
             <div class="ui tiny inverted label">Lesson Template Preview</div>
             <h1 class="ui inverted header">Lesson 3: Basic Formulas</h1>
-            <p class="hero-copy">Learn how to make the spreadsheet do the maths for you by using simple formulas.</p>
+            <p class="hero-copy">Learn how to make the spreadsheet do the maths for you by using simple formulas step by step.</p>
             <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
         </div>
     </div>
@@ -78,10 +78,10 @@
         <section class="ui raised segment content-panel lesson-section">
             <h2 class="ui header section-title">🎯 Learning Goals</h2>
             <div class="ui relaxed list feature-list">
-                <div class="item">Understand that formulas always start with an equals sign</div>
-                <div class="item">Use simple math symbols like +, -, * and /</div>
+                <div class="item">Know that every formula starts with an equals sign</div>
+                <div class="item">Use the multiply symbol to work out totals</div>
                 <div class="item">Use SUM to add a group of numbers</div>
-                <div class="item">Use AVERAGE, MAX, and MIN to understand data quickly</div>
+                <div class="item">Try AVERAGE, MAX, and MIN to learn more about your data</div>
             </div>
         </section>
 
@@ -89,11 +89,11 @@
             <div class="lesson-panel-header">
                 <h2 class="ui header section-title">🧪 Lesson Activity</h2>
             </div>
-            <p>Look at the demo sheet first. Then build your own formula table by following these steps.</p>
+            <p>Look at the demo sheet first. Then copy the same kind of table and follow the steps carefully.</p>
             <div class="ui ordered relaxed list">
-                <div class="item">Open the demo sheet and look at the columns for item, price, quantity, and total.</div>
+                <div class="item">Open the demo sheet and look at the headings: <strong>Item</strong>, <strong>Price</strong>, <strong>Quantity</strong>, and <strong>Total</strong>.</div>
                 <div class="item">Open a blank workbook in Excel or a blank Google Sheet.</div>
-                <div class="item">Type the headings <strong>Item</strong>, <strong>Price</strong>, <strong>Quantity</strong>, and <strong>Total</strong> in row 1.</div>
+                <div class="item">Type the same headings in row 1.</div>
                 <div class="item">Add at least four rows of sample data underneath.</div>
                 <div class="item">In the first Total cell, type a formula that multiplies price by quantity.</div>
                 <div class="item">Repeat the formula for the other rows.</div>
@@ -126,18 +126,18 @@
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">🧮 What is a Formula?</h2>
-            <p>A <strong>formula</strong> is an instruction you give to the spreadsheet. It tells the spreadsheet what maths to do.</p>
-            <p>Every formula starts with an <strong>equals sign (=)</strong>. If you forget the equals sign, the spreadsheet will think you are just typing words.</p>
+            <h2 class="ui header section-title">🧮 Step 1: What is a Formula?</h2>
+            <p>A <strong>formula</strong> is something you type into a cell to make the spreadsheet calculate an answer for you.</p>
+            <p>Every formula must start with an <strong>equals sign (=)</strong>. If you do not type the equals sign first, the spreadsheet will think you are just typing normal words.</p>
             <div class="ui info message">
-                <div class="header">Example</div>
-                <p>If you type <strong>=2+2</strong> and press Enter, the spreadsheet will show <strong>4</strong>.</p>
+                <div class="header">Simple example</div>
+                <p>If you click a cell, type <strong>=2+2</strong>, and press <strong>Enter</strong>, the spreadsheet will show the answer <strong>4</strong>.</p>
             </div>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">✏️ Step 1: Learn the Math Symbols</h2>
-            <p>Spreadsheets use simple symbols for maths.</p>
+            <h2 class="ui header section-title">✏️ Step 2: Learn the Maths Symbols</h2>
+            <p>Spreadsheets use symbols instead of writing words like add or multiply.</p>
             <table class="ui celled striped table">
                 <thead>
                     <tr>
@@ -153,6 +153,10 @@
                     <tr><td><strong>/</strong></td><td>Divide</td><td>=20/4</td></tr>
                 </tbody>
             </table>
+            <div class="ui warning message">
+                <div class="header">Important</div>
+                <p>The <strong>*</strong> symbol means multiply. You do not type an x.</p>
+            </div>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
@@ -163,40 +167,68 @@
                 <div class="item">Press <strong>Enter</strong>.</div>
                 <div class="item">The answer should appear in the cell.</div>
             </div>
+            <p>If you got <strong>4</strong>, your formula worked.</p>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">📦 Step 2: Multiply Price by Quantity</h2>
-            <p>Imagine your table has a price in column B and a quantity in column C. You can multiply them to get a total in column D.</p>
+            <h2 class="ui header section-title">📦 Step 3: Set Up Your Table</h2>
+            <p>Before using formulas, you need some data in your spreadsheet.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>A1</strong> and type <strong>Item</strong>.</div>
+                <div class="item">Click cell <strong>B1</strong> and type <strong>Price</strong>.</div>
+                <div class="item">Click cell <strong>C1</strong> and type <strong>Quantity</strong>.</div>
+                <div class="item">Click cell <strong>D1</strong> and type <strong>Total</strong>.</div>
+                <div class="item">Under those headings, type at least four rows of data.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Example row</div>
+                <p>You could type <strong>Apples</strong> in A2, <strong>2</strong> in B2, and <strong>3</strong> in C2.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧮 Step 4: Multiply Price by Quantity</h2>
+            <p>Now you are ready to make the spreadsheet work out the total for one row.</p>
             <div class="ui ordered relaxed list">
                 <div class="item">Click cell <strong>D2</strong>.</div>
                 <div class="item">Type <strong>=B2*C2</strong>.</div>
                 <div class="item">Press <strong>Enter</strong>.</div>
                 <div class="item">The spreadsheet will multiply the number in B2 by the number in C2.</div>
             </div>
-            <div class="ui warning message">
-                <div class="header">Important</div>
-                <p>The <strong>*</strong> symbol means multiply.</p>
+            <div class="ui info message">
+                <div class="header">What this means</div>
+                <p>If B2 is 2 and C2 is 3, then <strong>=B2*C2</strong> gives you <strong>6</strong>.</p>
             </div>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">➕ Step 3: Use SUM</h2>
+            <h2 class="ui header section-title">🧪 Try It: Fill More Totals</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>D3</strong>.</div>
+                <div class="item">Type <strong>=B3*C3</strong>.</div>
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">Do the same for <strong>D4</strong> and <strong>D5</strong>.</div>
+            </div>
+            <p>Now each row should have its own total.</p>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➕ Step 5: Use SUM</h2>
             <p><strong>SUM</strong> adds a whole group of numbers for you.</p>
             <div class="ui ordered relaxed list">
-                <div class="item">Click the empty cell under your totals.</div>
+                <div class="item">Click the empty cell under your totals. For example, if your totals are in D2 to D5, click <strong>D6</strong>.</div>
                 <div class="item">Type <strong>=SUM(D2:D5)</strong>.</div>
                 <div class="item">Press <strong>Enter</strong>.</div>
-                <div class="item">The spreadsheet adds all the numbers from D2 to D5.</div>
+                <div class="item">The spreadsheet will add every number from D2 to D5.</div>
             </div>
             <div class="ui info message">
                 <div class="header">What D2:D5 means</div>
-                <p>This is a range. It means every cell from D2 down to D5.</p>
+                <p>This is called a <strong>range</strong>. It means all the cells from D2 down to D5.</p>
             </div>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">📊 Step 4: Use AVERAGE, MAX, and MIN</h2>
+            <h2 class="ui header section-title">📊 Step 6: Try AVERAGE, MAX, and MIN</h2>
             <p>These formulas help you understand your numbers quickly.</p>
             <table class="ui celled striped table">
                 <thead>
@@ -212,10 +244,16 @@
                     <tr><td><strong>MIN</strong></td><td>Finds the smallest number</td><td>=MIN(D2:D5)</td></tr>
                 </tbody>
             </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click an empty cell.</div>
+                <div class="item">Type one of the formulas above.</div>
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">Look at the answer and compare it to your totals.</div>
+            </div>
         </section>
 
         <section class="ui raised segment content-panel lesson-section">
-            <h2 class="ui header section-title">💾 Save Your Workbook</h2>
+            <h2 class="ui header section-title">💾 Step 7: Save Your Workbook</h2>
             <div class="ui ordered relaxed list">
                 <div class="item">Click <strong>File</strong>.</div>
                 <div class="item">Click <strong>Save As</strong>.</div>
@@ -231,6 +269,7 @@
                 <div class="item">What sign must every formula start with?</div>
                 <div class="item">What does the <strong>*</strong> symbol mean in a spreadsheet?</div>
                 <div class="item">What does <strong>SUM</strong> do?</div>
+                <div class="item">What does a range like <strong>D2:D5</strong> mean?</div>
             </div>
         </section>
 
