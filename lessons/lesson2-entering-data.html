@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2 - Entering Data | Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            min-height: 840px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            width: 100%;
+            min-height: 840px;
+            height: 840px;
+            border: 0;
+            display: block;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                min-height: 700px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 700px;
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                min-height: 520px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 520px;
+                height: 520px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 2: Entering Data</h1>
+            <p class="hero-copy">Learn how to type information into cells, edit it, and make your spreadsheet easier to read with simple formatting.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
+        </div>
+    </div>
+
+    <main id="lesson-content" class="ui container page-content lesson-page lesson-page-wide">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Type text, numbers, and dates into spreadsheet cells</div>
+                <div class="item">Edit and delete data correctly</div>
+                <div class="item">Select one cell, a range, a row, or a column</div>
+                <div class="item">Use simple formatting to make data easier to read</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-sheet-panel inline-sheet-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">📄 Lesson Spreadsheet</h2>
+                <div class="ui small teal label">Demo Sheet</div>
+            </div>
+            <p class="lesson-panel-copy">Use this Google Sheet as a demo. It shows simple practice data so learners can see how text and numbers are entered before creating their own version in Excel or Google Sheets.</p>
+            <div class="ui clearing basic segment" style="padding-left:0;padding-right:0;">
+                <a href="https://docs.google.com/spreadsheets/d/1UX7B5wdT0gCVkKbmXCxiMWqvAxzBF16HXYjEQx560fo/edit?usp=sharing" class="ui right floated primary button" target="_blank" rel="noopener noreferrer">Open Full Spreadsheet</a>
+            </div>
+            <div class="ui info message">
+                <div class="header">How to use this</div>
+                <p>First, look at the demo sheet. Then open Excel or Google Sheets and create your own copy by typing and formatting the same kind of information.</p>
+            </div>
+            <div class="sheet-frame-wrap lesson-sheet-inline-frame">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1UX7B5wdT0gCVkKbmXCxiMWqvAxzBF16HXYjEQx560fo/edit?usp=sharing"
+                    title="Lesson 2 Google Sheet"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✏️ Typing Data Into Cells</h2>
+            <p>Entering data in a spreadsheet is simple. Click a cell, type your information, and then press <strong>Enter</strong> to confirm it.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click on a cell to select it.</div>
+                <div class="item">Start typing. The content appears in the cell and in the formula bar.</div>
+                <div class="item">Press <strong>Enter</strong> to move down or <strong>Tab</strong> to move right.</div>
+            </div>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Type of data</th>
+                        <th>Example</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Text</strong></td><td>Hello, Pokemon</td><td>Usually aligns left by default</td></tr>
+                    <tr><td><strong>Numbers</strong></td><td>42, 3.14</td><td>Usually aligns right by default</td></tr>
+                    <tr><td><strong>Dates</strong></td><td>3/10/2025</td><td>Spreadsheet apps often recognize date formats automatically</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🛠️ Editing and Deleting Data</h2>
+            <p>You can change or remove data after typing it.</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">Double-click a cell to edit it directly.</div>
+                <div class="item">Or click the cell and press <strong>F2</strong> to edit it.</div>
+                <div class="item">To remove content, click the cell and press the <strong>Delete</strong> key.</div>
+                <div class="item">To undo a mistake, press <strong>Ctrl + Z</strong> on Windows or <strong>Cmd + Z</strong> on Mac.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Practice idea</div>
+                <p>Change one value in your practice table, then undo it so you can see how editing and undo work together.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔲 Selecting Multiple Cells</h2>
+            <p>Sometimes you want to work with more than one cell at a time.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>What to select</th>
+                        <th>How to do it</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>A single cell</td><td>Click it</td></tr>
+                    <tr><td>A range of cells</td><td>Click the first cell, hold <strong>Shift</strong>, then click the last cell</td></tr>
+                    <tr><td>A whole row</td><td>Click the row number</td></tr>
+                    <tr><td>A whole column</td><td>Click the column letter</td></tr>
+                    <tr><td>All cells</td><td>Press <strong>Ctrl + A</strong></td></tr>
+                </tbody>
+            </table>
+            <p>A selected range is written like <strong>A1:B5</strong>.</p>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎨 Simple Formatting</h2>
+            <p>Formatting makes your spreadsheet easier to read and more fun to use.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Tool</th>
+                        <th>What it does</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Bold</strong></td><td>Makes important text stand out</td></tr>
+                    <tr><td><strong>Italic</strong></td><td>Changes the style of the text</td></tr>
+                    <tr><td><strong>Underline</strong></td><td>Adds a line under the text</td></tr>
+                    <tr><td><strong>Fill Color</strong></td><td>Changes the background color of a cell</td></tr>
+                    <tr><td><strong>Font Color</strong></td><td>Changes the color of the text</td></tr>
+                    <tr><td><strong>Alignment</strong></td><td>Moves text left, center, or right</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Select the cells you want to format.</div>
+                <div class="item">Use the toolbar or Home tab to apply bold, color, or alignment.</div>
+                <div class="item">Try making the header row bold and giving it a background color.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">↔️ Column Width and Alignment</h2>
+            <p>Sometimes text is too wide for a cell, or you want it to sit neatly in the center.</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">To auto-fit a column, double-click the border between two column letters.</div>
+                <div class="item">To change width manually, drag the border between columns.</div>
+                <div class="item">To align text, select cells and choose left, center, or right alignment.</div>
+            </div>
+            <div class="ui warning message">
+                <div class="header">Watch for cut-off data</div>
+                <p>If text looks cut off or numbers do not fit, the column may need to be widened.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">💾 Save Your Workbook</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click <strong>File</strong> → <strong>Save As</strong>.</div>
+                <div class="item">Choose a folder you can find again later.</div>
+                <div class="item">Name the file something clear like <strong>lesson2-entering-data.xlsx</strong>.</div>
+                <div class="item">Click <strong>Save</strong>.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+                <div class="ui orange label">Bottom Activity Area</div>
+            </div>
+            <p>Look at the demo sheet first, then build your own simple data table in Excel or Google Sheets.</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">Open the demo sheet and notice how text and numbers are entered into separate columns.</div>
+                <div class="item">Open a blank workbook in Excel or create a blank Google Sheet.</div>
+                <div class="item">Create a table with three or four columns such as <strong>Name</strong>, <strong>Age</strong>, <strong>Favourite Subject</strong>, and <strong>Score</strong>.</div>
+                <div class="item">Add at least five rows of data using your own information or made-up examples.</div>
+                <div class="item">Make the header row bold and add a background color.</div>
+                <div class="item">Center the headers and auto-fit the columns.</div>
+                <div class="item">Save your file with a clear filename.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Check Your Understanding</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">What is the difference between text, numbers, and dates in a spreadsheet?</div>
+                <div class="item">How do you edit a cell after typing in it?</div>
+                <div class="item">Why is formatting useful when you are entering data?</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you finish this lesson, move on to <strong>Lesson 3: Basic Formulas</strong>.</p>
+            <a href="lesson3-basic-formulas.html" class="ui positive button">Go to Lesson 3</a>
+            <a href="lesson1-getting-started.html" class="ui button">Back to Lesson 1</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 2 complete? Great job! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
