@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7 - IF Statements | Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 7: IF Statements</h1>
+            <p class="hero-copy">Learn how to make Excel show different results depending on what your data says.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
+        </div>
+    </div>
+
+    <main id="lesson-content" class="ui container page-content lesson-page">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Understand what an IF statement does</div>
+                <div class="item">Write simple IF formulas with true and false answers</div>
+                <div class="item">Use IF formulas with text and numbers</div>
+                <div class="item">Try nested IF, IFS, and COUNTIF</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+            </div>
+            <p>In this lesson, you will type small tables, write IF formulas, and watch Excel make smart choices for you.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the student score table into a blank spreadsheet.</div>
+                <div class="item">Write an IF formula to show Pass or Fail.</div>
+                <div class="item">Copy the formula down the column.</div>
+                <div class="item">Try an IF formula that returns numbers.</div>
+                <div class="item">Practise with grades, candy warnings, and game popularity.</div>
+                <div class="item">Use COUNTIF at the end to count your results.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🤔 Step 1: What is an IF Statement?</h2>
+            <p>An IF statement checks something and gives one answer if it is true and a different answer if it is false.</p>
+            <div class="ui info message">
+                <div class="header">Think of it like this</div>
+                <p><strong>If</strong> it is raining, take an umbrella. <strong>Otherwise</strong>, wear sunglasses.</p>
+            </div>
+            <p>In Excel, the formula looks like this:</p>
+            <div class="ui segment">
+                <code>=IF(condition, value_if_true, value_if_false)</code>
+            </div>
+            <div class="ui relaxed bulleted list">
+                <div class="item"><strong>Condition</strong> = what Excel checks</div>
+                <div class="item"><strong>Value if true</strong> = what to show if the condition is met</div>
+                <div class="item"><strong>Value if false</strong> = what to show if the condition is not met</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧮 Step 2: Type Your First IF Table</h2>
+            <p>Start with this simple student score table.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Alex</td><td>72</td><td></td></tr>
+                    <tr><td>Blake</td><td>45</td><td></td></tr>
+                    <tr><td>Casey</td><td>91</td><td></td></tr>
+                    <tr><td>Dana</td><td>38</td><td></td></tr>
+                    <tr><td>Evan</td><td>55</td><td></td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the headings in cells <strong>A1</strong> to <strong>C1</strong>.</div>
+                <div class="item">Type the student names and scores underneath.</div>
+                <div class="item">Leave the <strong>Result</strong> column empty for now.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✍️ Step 3: Write Your First IF Formula</h2>
+            <p>Now tell Excel to show <strong>Pass</strong> if the score is 50 or more, or <strong>Fail</strong> if it is below 50.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>C2</strong>.</div>
+                <div class="item">Type this formula:</div>
+            </div>
+            <div class="ui segment">
+                <code>=IF(B2&gt;=50,"Pass","Fail")</code>
+            </div>
+            <div class="ui ordered relaxed list">
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">C2 should now show <strong>Pass</strong>.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Formula breakdown</div>
+                <p><strong>B2&gt;=50</strong> checks the score. <strong>"Pass"</strong> appears if true. <strong>"Fail"</strong> appears if false.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🖱️ Step 4: Copy the Formula Down</h2>
+            <p>You do not have to type the formula again and again.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>C2</strong>.</div>
+                <div class="item">Move to the bottom-right corner of the cell until you see the small <strong>+</strong>.</div>
+                <div class="item">Drag down to <strong>C6</strong>.</div>
+                <div class="item">Excel fills the formula into the other rows.</div>
+            </div>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Alex → Pass</div>
+                <div class="item">Blake → Fail</div>
+                <div class="item">Casey → Pass</div>
+                <div class="item">Dana → Fail</div>
+                <div class="item">Evan → Pass</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔢 Step 5: IF with Numbers</h2>
+            <p>IF formulas can return numbers too, not just words.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Add a new heading called <strong>Bonus</strong> in <strong>D1</strong>.</div>
+                <div class="item">In <strong>D2</strong>, type:</div>
+            </div>
+            <div class="ui segment">
+                <code>=IF(B2&gt;80,10,0)</code>
+            </div>
+            <div class="ui ordered relaxed list">
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">Copy the formula down to the other rows.</div>
+            </div>
+            <p>This gives <strong>10</strong> if the score is above 80, and <strong>0</strong> if it is not.</p>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">⚖️ Step 6: Comparison Symbols</h2>
+            <p>These symbols help IF formulas compare values.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Meaning</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>&gt;</code></td><td>Greater than</td><td><code>B2&gt;80</code></td></tr>
+                    <tr><td><code>&lt;</code></td><td>Less than</td><td><code>B2&lt;50</code></td></tr>
+                    <tr><td><code>&gt;=</code></td><td>Greater than or equal to</td><td><code>B2&gt;=50</code></td></tr>
+                    <tr><td><code>&lt;=</code></td><td>Less than or equal to</td><td><code>B2&lt;=100</code></td></tr>
+                    <tr><td><code>=</code></td><td>Equal to</td><td><code>B2=100</code></td></tr>
+                    <tr><td><code>&lt;&gt;</code></td><td>Not equal to</td><td><code>B2&lt;&gt;0</code></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎓 Step 7: Use Nested IF for Letter Grades</h2>
+            <p>You can put one IF inside another IF to create more than two results.</p>
+            <div class="ui segment">
+                <code>=IF(B2&gt;=90,"A",IF(B2&gt;=80,"B",IF(B2&gt;=70,"C","D")))</code>
+            </div>
+            <div class="ui relaxed bulleted list">
+                <div class="item">90 or more = A</div>
+                <div class="item">80 or more = B</div>
+                <div class="item">70 or more = C</div>
+                <div class="item">Anything else = D</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Why use nested IF?</div>
+                <p>It lets Excel choose from more than just two answers.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🍬 Step 8: Try IF with Candy Data</h2>
+            <p>You can use IF in other kinds of tables too.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open <strong>candy_data.csv</strong>.</div>
+                <div class="item">Find the <strong>Teeth Danger</strong> column.</div>
+                <div class="item">Add a new heading called <strong>Dentist Warning</strong>.</div>
+                <div class="item">Use a formula like this:</div>
+            </div>
+            <div class="ui segment">
+                <code>=IF(H2&gt;=4,"⚠️ Be Careful!","😊 OK")</code>
+            </div>
+            <p>If the danger number is 4 or higher, Excel shows a warning.</p>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧠 Step 9: Try the IFS Function</h2>
+            <p>If you have a newer version of Excel, you can use <strong>IFS</strong> for lots of conditions.</p>
+            <div class="ui segment">
+                <code>=IFS(B2&gt;=90,"A", B2&gt;=80,"B", B2&gt;=70,"C", B2&gt;=60,"D", B2&lt;60,"F")</code>
+            </div>
+            <p>This works like a tidy version of multiple IF statements.</p>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔍 Step 10: COUNTIF Review</h2>
+            <p>COUNTIF counts how many cells match a rule.</p>
+            <div class="ui segment">
+                <code>=COUNTIF(B2:B11,">=90")</code><br>
+                <code>=COUNTIF(C2:C11,"Pass")</code>
+            </div>
+            <div class="ui relaxed bulleted list">
+                <div class="item">The first formula counts scores of 90 or more.</div>
+                <div class="item">The second formula counts how many cells say Pass.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎮 Activity: Video Game Rating Classifier</h2>
+            <p>Now try a full activity with video game data.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open <strong>video_games.csv</strong>.</div>
+                <div class="item">Find the <strong>Copies Sold (millions)</strong> column.</div>
+                <div class="item">Add a new column called <strong>Popularity</strong>.</div>
+                <div class="item">Classify each game like this:</div>
+            </div>
+            <div class="ui relaxed bulleted list">
+                <div class="item">200 million or more = <strong>Mega Hit</strong></div>
+                <div class="item">50 million or more = <strong>Big Hit</strong></div>
+                <div class="item">Less than 50 million = <strong>Solid Performer</strong></div>
+            </div>
+            <div class="ui ordered relaxed list">
+                <div class="item">Copy the formula down the whole column.</div>
+                <div class="item">Use COUNTIF to count how many games are in each group.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Lesson 7 Recap</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">You learned the basic IF structure</div>
+                <div class="item">You used comparison symbols like &gt;, &lt;, and &gt;=</div>
+                <div class="item">You used IF with text and numbers</div>
+                <div class="item">You tried nested IF, IFS, and COUNTIF</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you are ready, move on to <strong>Lesson 8: VLOOKUP</strong>.</p>
+            <a href="lesson8-vlookup.html" class="ui positive button">Go to Lesson 8</a>
+            <a href="lesson6-sorting-filtering.html" class="ui button">Back to Lesson 6</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 7 complete? Great job! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
