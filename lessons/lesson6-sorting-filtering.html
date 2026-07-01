@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6 - Sorting & Filtering | Beginners Excel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            min-height: 840px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            width: 100%;
+            min-height: 840px;
+            height: 840px;
+            border: 0;
+            display: block;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                min-height: 700px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 700px;
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                min-height: 520px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 520px;
+                height: 520px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ui fixed top menu app-navbar">
+        <div class="ui container">
+            <a href="../index.html" class="header item">📊 Beginners Excel</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 6: Sorting & Filtering</h1>
+            <p class="hero-copy">Learn how to put data in order and show only the rows you need so big tables become easier to read.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
+        </div>
+    </div>
+
+    <main id="lesson-content" class="ui container page-content lesson-page lesson-page-wide">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Sort words from A to Z and Z to A</div>
+                <div class="item">Sort numbers from biggest to smallest or smallest to biggest</div>
+                <div class="item">Turn on filters to hide rows you do not need</div>
+                <div class="item">Use text filters and number filters to find information quickly</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+            </div>
+            <p>Look at the demo sheet first. Then practise sorting and filtering with the sample tables below in Excel or Google Sheets.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open the demo sheet and look at the sorted and filtered examples.</div>
+                <div class="item">Type the school grades table into your own spreadsheet.</div>
+                <div class="item">Sort the student names from A to Z and then Z to A.</div>
+                <div class="item">Sort the Math scores from highest to lowest.</div>
+                <div class="item">Turn on filters and show only the rows you want.</div>
+                <div class="item">Try the movie and video game activities too.</div>
+                <div class="item">Save your work when you finish.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-sheet-panel inline-sheet-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">📄 Lesson Spreadsheet</h2>
+                <div class="ui small teal label">Demo Sheet</div>
+            </div>
+            <p class="lesson-panel-copy">Use this Google Sheet as a demo. It shows tables you can sort and filter so you can see what should happen before trying it yourself.</p>
+            <div class="ui clearing basic segment" style="padding-left:0;padding-right:0;">
+                <a href="https://docs.google.com/spreadsheets/d/1_FS1ZSAqMeaboIjyKh7fRly0xwX2LV8Gxm87lgNRZW4/edit?usp=sharing" class="ui right floated primary button" target="_blank" rel="noopener noreferrer">Open Full Spreadsheet</a>
+            </div>
+            <div class="ui info message">
+                <div class="header">How to use this</div>
+                <p>Study the demo first, then type the same kind of tables into a blank spreadsheet and practise sorting and filtering them yourself.</p>
+            </div>
+            <div class="sheet-frame-wrap lesson-sheet-inline-frame">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1_FS1ZSAqMeaboIjyKh7fRly0xwX2LV8Gxm87lgNRZW4/edit?usp=sharing"
+                    title="Lesson 6 Google Sheet"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔍 Step 1: Why Sort and Filter?</h2>
+            <p>Sorting puts data in order. Filtering hides rows that do not match what you want to see.</p>
+            <div class="ui relaxed bulleted list">
+                <div class="item">Sorting helps you find the biggest, smallest, first, or last items.</div>
+                <div class="item">Filtering helps you focus on only the rows you care about.</div>
+                <div class="item">These tools are very useful when a table has lots of rows.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🏫 Step 2: Type the School Grades Table</h2>
+            <p>Use this sample table to practise sorting and filtering.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Math</th>
+                        <th>Science</th>
+                        <th>English</th>
+                        <th>History</th>
+                        <th>Art</th>
+                        <th>PE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Alex Johnson</td><td>92</td><td>88</td><td>95</td><td>85</td><td>90</td><td>98</td></tr>
+                    <tr><td>Blake Smith</td><td>78</td><td>82</td><td>75</td><td>80</td><td>95</td><td>90</td></tr>
+                    <tr><td>Casey Lee</td><td>85</td><td>91</td><td>88</td><td>84</td><td>87</td><td>93</td></tr>
+                    <tr><td>Dana Brown</td><td>96</td><td>89</td><td>90</td><td>92</td><td>85</td><td>97</td></tr>
+                    <tr><td>Evan Garcia</td><td>81</td><td>77</td><td>83</td><td>79</td><td>88</td><td>86</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type the headings in Row 1.</div>
+                <div class="item">Type the student names and scores underneath.</div>
+                <div class="item">Make the header row bold and give it a fill colour.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔤 Step 3: Sort Names A to Z</h2>
+            <p>Now sort the table by student name.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click any cell in the <strong>Student Name</strong> column.</div>
+                <div class="item">Click the <strong>Data</strong> tab.</div>
+                <div class="item">Choose <strong>Sort A to Z</strong>.</div>
+                <div class="item">Watch the whole table move into alphabetical order.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">Good to know</div>
+                <p>When you sort one column, the other columns move too so each row stays together.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔡 Step 4: Sort Names Z to A</h2>
+            <p>Try the reverse order too.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click any cell in the <strong>Student Name</strong> column again.</div>
+                <div class="item">Choose <strong>Sort Z to A</strong>.</div>
+                <div class="item">The names near the end of the alphabet should move to the top.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🔢 Step 5: Sort Numbers</h2>
+            <p>You can sort scores too.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click any cell in the <strong>Math</strong> column.</div>
+                <div class="item">Choose <strong>Sort Largest to Smallest</strong>.</div>
+                <div class="item">The student with the highest Math score should move to the top.</div>
+                <div class="item">Try sorting the <strong>PE</strong> column from <strong>Smallest to Largest</strong> too.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎬 Step 6: Try a Multi-Level Sort with Movies</h2>
+            <p>Sometimes you want to sort by more than one column.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Genre</th>
+                        <th>Rating (out of 10)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Toy Story</td><td>Animation</td><td>8.5</td></tr>
+                    <tr><td>Shrek</td><td>Comedy</td><td>8.8</td></tr>
+                    <tr><td>Frozen</td><td>Musical</td><td>7.9</td></tr>
+                    <tr><td>Moana</td><td>Adventure</td><td>8.1</td></tr>
+                    <tr><td>Minions</td><td>Comedy</td><td>6.4</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type this movie table into a new area or new sheet.</div>
+                <div class="item">Click anywhere in the table.</div>
+                <div class="item">Use the full <strong>Sort</strong> tool in the <strong>Data</strong> tab.</div>
+                <div class="item">Sort first by <strong>Genre</strong> A to Z.</div>
+                <div class="item">Add another level and sort by <strong>Rating</strong> Largest to Smallest.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧰 Step 7: Turn On Filters</h2>
+            <p>Filters add little dropdown arrows to the top row.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Go back to your school grades table.</div>
+                <div class="item">Click any cell inside the table.</div>
+                <div class="item">Click <strong>Data</strong> → <strong>Filter</strong>.</div>
+                <div class="item">Small dropdown arrows should appear in the heading row.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Step 8: Use a Number Filter</h2>
+            <p>Number filters help you show only rows with scores above or below a certain value.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the filter arrow in the <strong>Math</strong> column.</div>
+                <div class="item">Choose a number filter like <strong>Greater Than or Equal To</strong>.</div>
+                <div class="item">Type <strong>90</strong>.</div>
+                <div class="item">Click <strong>OK</strong>.</div>
+                <div class="item">Now only students with Math scores of 90 or more should be visible.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📝 Step 9: Use a Text Filter</h2>
+            <p>You can filter words too.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Use the movie table or another table with words.</div>
+                <div class="item">Turn on filters if they are not already on.</div>
+                <div class="item">Click the filter arrow in the <strong>Genre</strong> column.</div>
+                <div class="item">Uncheck <strong>Select All</strong>.</div>
+                <div class="item">Check only one genre, like <strong>Comedy</strong> or <strong>Animation</strong>.</div>
+                <div class="item">Click <strong>OK</strong>.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎮 Step 10: Practice with Video Game Data</h2>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Game</th>
+                        <th>Genre</th>
+                        <th>Copies Sold (Millions)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Minecraft</td><td>Sandbox</td><td>300</td></tr>
+                    <tr><td>Mario Kart 8</td><td>Racing</td><td>70</td></tr>
+                    <tr><td>Fortnite</td><td>Battle Royale</td><td>45</td></tr>
+                    <tr><td>Roblox</td><td>Sandbox</td><td>58</td></tr>
+                    <tr><td>Zelda: BOTW</td><td>Adventure</td><td>32</td></tr>
+                </tbody>
+            </table>
+            <div class="ui ordered relaxed list">
+                <div class="item">Type this table into a new area or new sheet.</div>
+                <div class="item">Sort <strong>Copies Sold</strong> from largest to smallest.</div>
+                <div class="item">Turn on filters.</div>
+                <div class="item">Filter the <strong>Genre</strong> column to show only <strong>Sandbox</strong> games.</div>
+                <div class="item">Count how many Sandbox games you can see.</div>
+                <div class="item">Clear the filter when you are done.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Lesson 6 Recap</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">You sorted text from A to Z and Z to A</div>
+                <div class="item">You sorted numbers from largest to smallest and smallest to largest</div>
+                <div class="item">You used filters to show only matching rows</div>
+                <div class="item">You practised with text filters and number filters</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you are ready, move on to <strong>Lesson 7: IF Statements</strong>.</p>
+            <a href="lesson7-if-statements.html" class="ui positive button">Go to Lesson 7</a>
+            <a href="lesson5-fun-projects.html" class="ui button">Back to Lesson 5</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 6 complete? Nice work! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</body>
+</html>
