@@ -6,6 +6,44 @@
     <title>Lesson 1 - Getting Started | Beginners Excel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            min-height: 540px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                aspect-ratio: 4 / 3;
+                min-height: 500px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                aspect-ratio: 1 / 1;
+                min-height: 420px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="ui fixed top menu app-navbar">
