@@ -3,133 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 3: Basic Formulas - Beginners Excel</title>
+    <title>Lesson 3 - Basic Formulas | Beginners Excel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .lesson-page-wide {
+            max-width: 1320px !important;
+        }
+
+        .lesson-sheet-inline-frame {
+            position: relative;
+            width: 100%;
+            min-height: 840px;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 1px solid #dfe6ee;
+        }
+
+        .lesson-sheet-inline-frame iframe {
+            width: 100%;
+            min-height: 840px;
+            height: 840px;
+            border: 0;
+            display: block;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .lesson-sheet-inline-frame {
+                min-height: 700px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 700px;
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .lesson-sheet-inline-frame {
+                min-height: 520px;
+            }
+
+            .lesson-sheet-inline-frame iframe {
+                min-height: 520px;
+                height: 520px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <div class="ui fixed top menu">
+    <div class="ui fixed top menu app-navbar">
         <div class="ui container">
             <a href="../index.html" class="header item">📊 Beginners Excel</a>
-            <a href="../index.html#lessons" class="item">All Lessons</a>
+            <a href="../index.html#lessons" class="item">Lessons</a>
+            <a href="../index.html#features" class="item">Features</a>
+            <a href="../index.html#data" class="item">Sample Data</a>
+            <div class="right menu">
+                <a href="https://github.com/Vormamim/BeginnersExcel" class="item" target="_blank">GitHub</a>
+            </div>
         </div>
     </div>
 
-    <!-- Main Content -->
-    <div class="ui container" style="margin-top: 80px; margin-bottom: 50px;">
-        <h1>🧮 Lesson 3: Basic Formulas</h1>
-        
-        <div class="ui segment">
-            <p><strong>⏱️ Time:</strong> About 30 minutes</p>
-            <p><strong>What you'll learn:</strong> How to use Excel formulas to add, average, and analyze numbers — no calculator needed!</p>
+    <div class="ui inverted vertical center aligned segment hero-section lesson-hero">
+        <div class="ui text container">
+            <div class="ui tiny inverted label">Lesson Template Preview</div>
+            <h1 class="ui inverted header">Lesson 3: Basic Formulas</h1>
+            <p class="hero-copy">Learn how to make the spreadsheet do the maths for you by using simple formulas.</p>
+            <a href="#lesson-content" class="ui primary large button">Start Lesson</a>
         </div>
+    </div>
 
-        <!-- What is a Formula -->
-        <div class="ui segment">
-            <h2>What is a Formula?</h2>
-            <p>A <strong>formula</strong> is a math instruction you give to Excel. It always starts with an <strong>equals sign (=)</strong>.</p>
-            <p>When you type <code>=2+2</code> in a cell and press <strong>Enter</strong>, Excel shows <strong>4</strong>. Magic! 🪄</p>
-        </div>
+    <main id="lesson-content" class="ui container page-content lesson-page lesson-page-wide">
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🎯 Learning Goals</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">Understand that formulas always start with an equals sign</div>
+                <div class="item">Use simple math symbols like +, -, * and /</div>
+                <div class="item">Use SUM to add a group of numbers</div>
+                <div class="item">Use AVERAGE, MAX, and MIN to understand data quickly</div>
+            </div>
+        </section>
 
-        <!-- Step 1 -->
-        <div class="ui segment">
-            <h2>Step 1 — Basic Math Operators</h2>
-            <p>Excel can do all kinds of math:</p>
-            <table class="ui celled table">
+        <section class="ui raised segment content-panel lesson-section lesson-activity-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">🧪 Lesson Activity</h2>
+            </div>
+            <p>Look at the demo sheet first. Then build your own formula table by following these steps.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Open the demo sheet and look at the columns for item, price, quantity, and total.</div>
+                <div class="item">Open a blank workbook in Excel or a blank Google Sheet.</div>
+                <div class="item">Type the headings <strong>Item</strong>, <strong>Price</strong>, <strong>Quantity</strong>, and <strong>Total</strong> in row 1.</div>
+                <div class="item">Add at least four rows of sample data underneath.</div>
+                <div class="item">In the first Total cell, type a formula that multiplies price by quantity.</div>
+                <div class="item">Repeat the formula for the other rows.</div>
+                <div class="item">Under the totals, use <strong>SUM</strong> to add all the totals together.</div>
+                <div class="item">Save your file with a clear name.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section lesson-sheet-panel inline-sheet-panel">
+            <div class="lesson-panel-header">
+                <h2 class="ui header section-title">📄 Lesson Spreadsheet</h2>
+                <div class="ui small teal label">Demo Sheet</div>
+            </div>
+            <p class="lesson-panel-copy">Use this Google Sheet as a demo. It shows a simple table where formulas are used to work out totals. Look at it first, then try building your own version in Excel or Google Sheets.</p>
+            <div class="ui clearing basic segment" style="padding-left:0;padding-right:0;">
+                <a href="https://docs.google.com/spreadsheets/d/1UX7B5wdT0gCVkKbmXCxiMWqvAxzBF16HXYjEQx560fo/edit?usp=sharing" class="ui right floated primary button" target="_blank" rel="noopener noreferrer">Open Full Spreadsheet</a>
+            </div>
+            <div class="ui info message">
+                <div class="header">How to use this</div>
+                <p>First, study the demo sheet. Then open a blank spreadsheet and copy the same kind of table so you can try formulas for yourself.</p>
+            </div>
+            <div class="sheet-frame-wrap lesson-sheet-inline-frame">
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1UX7B5wdT0gCVkKbmXCxiMWqvAxzBF16HXYjEQx560fo/edit?usp=sharing"
+                    title="Lesson 3 Google Sheet"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧮 What is a Formula?</h2>
+            <p>A <strong>formula</strong> is an instruction you give to the spreadsheet. It tells the spreadsheet what maths to do.</p>
+            <p>Every formula starts with an <strong>equals sign (=)</strong>. If you forget the equals sign, the spreadsheet will think you are just typing words.</p>
+            <div class="ui info message">
+                <div class="header">Example</div>
+                <p>If you type <strong>=2+2</strong> and press Enter, the spreadsheet will show <strong>4</strong>.</p>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✏️ Step 1: Learn the Math Symbols</h2>
+            <p>Spreadsheets use simple symbols for maths.</p>
+            <table class="ui celled striped table">
                 <thead>
                     <tr>
                         <th>Symbol</th>
-                        <th>Operation</th>
+                        <th>What it means</th>
                         <th>Example</th>
-                        <th>Result</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td><code>+</code></td>
-                        <td>Addition</td>
-                        <td><code>=5+3</code></td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td><code>-</code></td>
-                        <td>Subtraction</td>
-                        <td><code>=10-4</code></td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <td><code>*</code></td>
-                        <td>Multiplication</td>
-                        <td><code>=6*7</code></td>
-                        <td>42</td>
-                    </tr>
-                    <tr>
-                        <td><code>/</code></td>
-                        <td>Division</td>
-                        <td><code>=20/4</code></td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td><code>^</code></td>
-                        <td>Power (exponent)</td>
-                        <td><code>=2^3</code></td>
-                        <td>8</td>
-                    </tr>
+                    <tr><td><strong>+</strong></td><td>Add</td><td>=5+3</td></tr>
+                    <tr><td><strong>-</strong></td><td>Subtract</td><td>=10-4</td></tr>
+                    <tr><td><strong>*</strong></td><td>Multiply</td><td>=6*7</td></tr>
+                    <tr><td><strong>/</strong></td><td>Divide</td><td>=20/4</td></tr>
                 </tbody>
             </table>
-        </div>
+        </section>
 
-        <!-- Step 3 -->
-        <div class="ui segment">
-            <h2>Step 3 — The SUM Function</h2>
-            <p>Adding up a long list of numbers one by one is boring. Use <strong>SUM</strong> instead!</p>
-            <p><strong>Syntax:</strong> <code>=SUM(first cell:last cell)</code></p>
-            <p><strong>Example:</strong> <code>=SUM(B2:B6)</code> adds all numbers from B2 to B6.</p>
-        </div>
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">🧪 Try It: Your First Formula</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click an empty cell.</div>
+                <div class="item">Type <strong>=2+2</strong>.</div>
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">The answer should appear in the cell.</div>
+            </div>
+        </section>
 
-        <!-- Step 4 -->
-        <div class="ui segment">
-            <h2>Step 4 — The AVERAGE Function</h2>
-            <p><strong>AVERAGE</strong> calculates the mean (the typical middle value) of a range.</p>
-            <p><strong>Syntax:</strong> <code>=AVERAGE(first cell:last cell)</code></p>
-        </div>
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📦 Step 2: Multiply Price by Quantity</h2>
+            <p>Imagine your table has a price in column B and a quantity in column C. You can multiply them to get a total in column D.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click cell <strong>D2</strong>.</div>
+                <div class="item">Type <strong>=B2*C2</strong>.</div>
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">The spreadsheet will multiply the number in B2 by the number in C2.</div>
+            </div>
+            <div class="ui warning message">
+                <div class="header">Important</div>
+                <p>The <strong>*</strong> symbol means multiply.</p>
+            </div>
+        </section>
 
-        <!-- Step 5 -->
-        <div class="ui segment">
-            <h2>Step 5 — MAX and MIN Functions</h2>
-            <ul>
-                <li><strong>MAX</strong> — finds the <strong>biggest</strong> number in a range</li>
-                <li><strong>MIN</strong> — finds the <strong>smallest</strong> number in a range</li>
-            </ul>
-            <p><strong>Syntax:</strong></p>
-            <pre><code>=MAX(B2:B6)
-=MIN(B2:B6)</code></pre>
-        </div>
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➕ Step 3: Use SUM</h2>
+            <p><strong>SUM</strong> adds a whole group of numbers for you.</p>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click the empty cell under your totals.</div>
+                <div class="item">Type <strong>=SUM(D2:D5)</strong>.</div>
+                <div class="item">Press <strong>Enter</strong>.</div>
+                <div class="item">The spreadsheet adds all the numbers from D2 to D5.</div>
+            </div>
+            <div class="ui info message">
+                <div class="header">What D2:D5 means</div>
+                <p>This is a range. It means every cell from D2 down to D5.</p>
+            </div>
+        </section>
 
-        <!-- Recap -->
-        <div class="ui segment" style="background-color: #f0f0f0;">
-            <h2>📋 Lesson 3 Recap</h2>
-            <p>You learned:</p>
-            <ul>
-                <li>✔️ Formulas always start with <code>=</code></li>
-                <li>✔️ Basic math: +, -, *, /, ^</li>
-                <li>✔️ Cell references update automatically</li>
-                <li>✔️ <code>=SUM()</code> — adds a range of numbers</li>
-                <li>✔️ <code>=AVERAGE()</code> — finds the mean</li>
-                <li>✔️ <code>=MAX()</code> and <code>=MIN()</code> — find the biggest and smallest</li>
-                <li>✔️ <code>=COUNT()</code> — counts number cells</li>
-                <li>✔️ How to copy formulas with the fill handle</li>
-            </ul>
-        </div>
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">📊 Step 4: Use AVERAGE, MAX, and MIN</h2>
+            <p>These formulas help you understand your numbers quickly.</p>
+            <table class="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th>Formula</th>
+                        <th>What it does</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>AVERAGE</strong></td><td>Finds the middle value</td><td>=AVERAGE(D2:D5)</td></tr>
+                    <tr><td><strong>MAX</strong></td><td>Finds the biggest number</td><td>=MAX(D2:D5)</td></tr>
+                    <tr><td><strong>MIN</strong></td><td>Finds the smallest number</td><td>=MIN(D2:D5)</td></tr>
+                </tbody>
+            </table>
+        </section>
 
-        <!-- Navigation -->
-        <div class="ui segment">
-            <a href="lesson2-entering-data.html" class="ui button">⬅️ Previous Lesson</a>
-            <a href="lesson4-charts-graphs.html" class="ui primary button">Next Lesson: Charts & Graphs ➡️</a>
-            <a href="../index.html" class="ui button">🏠 Back to Home</a>
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">💾 Save Your Workbook</h2>
+            <div class="ui ordered relaxed list">
+                <div class="item">Click <strong>File</strong>.</div>
+                <div class="item">Click <strong>Save As</strong>.</div>
+                <div class="item">Choose a folder you can find again later.</div>
+                <div class="item">Name the file something clear like <strong>lesson3-basic-formulas.xlsx</strong>.</div>
+                <div class="item">Click <strong>Save</strong>.</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">✅ Check Your Understanding</h2>
+            <div class="ui relaxed list feature-list">
+                <div class="item">What sign must every formula start with?</div>
+                <div class="item">What does the <strong>*</strong> symbol mean in a spreadsheet?</div>
+                <div class="item">What does <strong>SUM</strong> do?</div>
+            </div>
+        </section>
+
+        <section class="ui raised segment content-panel lesson-section">
+            <h2 class="ui header section-title">➡️ Next Step</h2>
+            <p>When you finish this lesson, move on to <strong>Lesson 4: Charts & Graphs</strong>.</p>
+            <a href="lesson4-charts-graphs.html" class="ui positive button">Go to Lesson 4</a>
+            <a href="lesson2-entering-data.html" class="ui button">Back to Lesson 2</a>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical segment footer-section">
+        <div class="ui center aligned container">
+            <p>Lesson 3 complete? Great job! 🌟</p>
+            <p><a href="../index.html">Return to homepage</a></p>
         </div>
-    </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
